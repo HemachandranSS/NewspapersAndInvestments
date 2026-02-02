@@ -1,0 +1,3174 @@
+{
+    "Sovereign": {
+        "stocks": {
+            "National Bank For Agriculture & Rural Development": {
+                "average": "5.04%",
+                "min": "0.58%",
+                "max": "12.65%",
+                "count": 10,
+                "mutual_funds": [
+                    {
+                        "name": "hdfc-medium-term-opportunities-fund-direct-growth",
+                        "asset": "0.86%"
+                    },
+                    {
+                        "name": "icici-prudential-corporate-bond-fund-direct-plan-growth",
+                        "asset": "0.58%"
+                    },
+                    {
+                        "name": "birla-sun-life-short-term-fund-direct-growth",
+                        "asset": "7.45%"
+                    },
+                    {
+                        "name": "kotak-corporate-bond-fund-direct-growth",
+                        "asset": "3.38%"
+                    },
+                    {
+                        "name": "nippon-india-corporate-bond-fund-direct-growth",
+                        "asset": "7.54%"
+                    },
+                    {
+                        "name": "invesco-india-active-i-come-fund-direct-growth",
+                        "asset": "2.17%"
+                    },
+                    {
+                        "name": "uti-corporate-bond-fund-direct-growth",
+                        "asset": "3.23%"
+                    },
+                    {
+                        "name": "tata-corporate-bond-fund-direct-growth",
+                        "asset": "4.58%"
+                    },
+                    {
+                        "name": "sundaram-flexible-fund-flexible-i-come-direct-growth",
+                        "asset": "12.65%"
+                    },
+                    {
+                        "name": "mirae-asset-corporate-bond-fund-direct-growth",
+                        "asset": "7.95%"
+                    }
+                ]
+            },
+            "REC Ltd.": {
+                "average": "3.03%",
+                "min": "0.45%",
+                "max": "6.97%",
+                "count": 8,
+                "mutual_funds": [
+                    {
+                        "name": "hdfc-medium-term-opportunities-fund-direct-growth",
+                        "asset": "6.97%"
+                    },
+                    {
+                        "name": "hdfc-medium-term-opportunities-fund-direct-growth",
+                        "asset": "1.07%"
+                    },
+                    {
+                        "name": "hdfc-medium-term-opportunities-fund-direct-growth",
+                        "asset": "0.45%"
+                    },
+                    {
+                        "name": "icici-prudential-corporate-bond-fund-direct-plan-growth",
+                        "asset": "4.37%"
+                    },
+                    {
+                        "name": "icici-prudential-corporate-bond-fund-direct-plan-growth",
+                        "asset": "2.8%"
+                    },
+                    {
+                        "name": "axis-corporate-bond-fund-direct-growth",
+                        "asset": "3.53%"
+                    },
+                    {
+                        "name": "invesco-india-active-i-come-fund-direct-growth",
+                        "asset": "2.64%"
+                    },
+                    {
+                        "name": "invesco-india-active-i-come-fund-direct-growth",
+                        "asset": "2.41%"
+                    }
+                ]
+            },
+            "Power Finance Corporation Ltd.": {
+                "average": "3.21%",
+                "min": "0.6%",
+                "max": "9.73%",
+                "count": 7,
+                "mutual_funds": [
+                    {
+                        "name": "hdfc-medium-term-opportunities-fund-direct-growth",
+                        "asset": "2.1%"
+                    },
+                    {
+                        "name": "hdfc-medium-term-opportunities-fund-direct-growth",
+                        "asset": "0.6%"
+                    },
+                    {
+                        "name": "icici-prudential-corporate-bond-fund-direct-plan-growth",
+                        "asset": "0.78%"
+                    },
+                    {
+                        "name": "uti-corporate-bond-fund-direct-growth",
+                        "asset": "1.66%"
+                    },
+                    {
+                        "name": "union-corporate-bond-fund-direct-growth",
+                        "asset": "4.0%"
+                    },
+                    {
+                        "name": "baroda-bnp-paribas-corporate-bond-fund-direct-growth",
+                        "asset": "3.6%"
+                    },
+                    {
+                        "name": "canara-robeco-medium-term-opportunities-fund-direct-growth",
+                        "asset": "9.73%"
+                    }
+                ]
+            },
+            "Small Industries Devp. Bank of India Ltd.": {
+                "average": "3.38%",
+                "min": "1.57%",
+                "max": "7.67%",
+                "count": 6,
+                "mutual_funds": [
+                    {
+                        "name": "icici-prudential-corporate-bond-fund-direct-plan-growth",
+                        "asset": "1.57%"
+                    },
+                    {
+                        "name": "sbi-corporate-bond-fund-direct-growth",
+                        "asset": "7.67%"
+                    },
+                    {
+                        "name": "nippon-india-corporate-bond-fund-direct-growth",
+                        "asset": "2.3%"
+                    },
+                    {
+                        "name": "nippon-india-corporate-bond-fund-direct-growth",
+                        "asset": "1.82%"
+                    },
+                    {
+                        "name": "invesco-india-active-i-come-fund-direct-growth",
+                        "asset": "3.94%"
+                    },
+                    {
+                        "name": "uti-corporate-bond-fund-direct-growth",
+                        "asset": "2.98%"
+                    }
+                ]
+            },
+            "Indian Railway Finance Corporation Ltd.": {
+                "average": "1.99%",
+                "min": "1.23%",
+                "max": "2.69%",
+                "count": 6,
+                "mutual_funds": [
+                    {
+                        "name": "birla-sun-life-short-term-fund-direct-growth",
+                        "asset": "2.67%"
+                    },
+                    {
+                        "name": "birla-sun-life-short-term-fund-direct-growth",
+                        "asset": "1.23%"
+                    },
+                    {
+                        "name": "nippon-india-corporate-bond-fund-direct-growth",
+                        "asset": "2.69%"
+                    },
+                    {
+                        "name": "invesco-india-active-i-come-fund-direct-growth",
+                        "asset": "1.25%"
+                    },
+                    {
+                        "name": "hsbc-corporate-bond-direct-growth",
+                        "asset": "1.59%"
+                    },
+                    {
+                        "name": "tata-corporate-bond-fund-direct-growth",
+                        "asset": "2.48%"
+                    }
+                ]
+            },
+            "GOI": {
+                "average": "6.25%",
+                "min": "0.97%",
+                "max": "10.67%",
+                "count": 6,
+                "mutual_funds": [
+                    {
+                        "name": "kotak-corporate-bond-fund-direct-growth",
+                        "asset": "6.13%"
+                    },
+                    {
+                        "name": "idfc-corporate-bond-fund-direct-growth",
+                        "asset": "8.56%"
+                    },
+                    {
+                        "name": "idfc-corporate-bond-fund-direct-growth",
+                        "asset": "0.97%"
+                    },
+                    {
+                        "name": "axis-corporate-bond-fund-direct-growth",
+                        "asset": "6.34%"
+                    },
+                    {
+                        "name": "invesco-india-active-i-come-fund-direct-growth",
+                        "asset": "4.84%"
+                    },
+                    {
+                        "name": "dsp-corporate-bond-fund-direct-growth",
+                        "asset": "10.67%"
+                    }
+                ]
+            },
+            "Power Grid Corporation Of India Ltd.": {
+                "average": "1.93%",
+                "min": "1.02%",
+                "max": "2.66%",
+                "count": 5,
+                "mutual_funds": [
+                    {
+                        "name": "hdfc-medium-term-opportunities-fund-direct-growth",
+                        "asset": "1.02%"
+                    },
+                    {
+                        "name": "idfc-corporate-bond-fund-direct-growth",
+                        "asset": "1.09%"
+                    },
+                    {
+                        "name": "tata-corporate-bond-fund-direct-growth",
+                        "asset": "2.66%"
+                    },
+                    {
+                        "name": "baroda-bnp-paribas-corporate-bond-fund-direct-growth",
+                        "asset": "2.65%"
+                    },
+                    {
+                        "name": "dsp-corporate-bond-fund-direct-growth",
+                        "asset": "2.25%"
+                    }
+                ]
+            },
+            "Reliance Industries Ltd.": {
+                "average": "3.38%",
+                "min": "2.11%",
+                "max": "5.53%",
+                "count": 4,
+                "mutual_funds": [
+                    {
+                        "name": "hdfc-medium-term-opportunities-fund-direct-growth",
+                        "asset": "3.01%"
+                    },
+                    {
+                        "name": "idfc-corporate-bond-fund-direct-growth",
+                        "asset": "5.53%"
+                    },
+                    {
+                        "name": "hsbc-corporate-bond-direct-growth",
+                        "asset": "2.11%"
+                    },
+                    {
+                        "name": "baroda-bnp-paribas-corporate-bond-fund-direct-growth",
+                        "asset": "2.87%"
+                    }
+                ]
+            },
+            "National Housing Bank": {
+                "average": "2.09%",
+                "min": "1.79%",
+                "max": "2.4%",
+                "count": 2,
+                "mutual_funds": [
+                    {
+                        "name": "hdfc-medium-term-opportunities-fund-direct-growth",
+                        "asset": "2.4%"
+                    },
+                    {
+                        "name": "uti-corporate-bond-fund-direct-growth",
+                        "asset": "1.79%"
+                    }
+                ]
+            },
+            "Jamnagar Utilities and Power Pvt. Ltd.": {
+                "average": "3.12%",
+                "min": "2.23%",
+                "max": "4.0%",
+                "count": 2,
+                "mutual_funds": [
+                    {
+                        "name": "icici-prudential-corporate-bond-fund-direct-plan-growth",
+                        "asset": "2.23%"
+                    },
+                    {
+                        "name": "sbi-corporate-bond-fund-direct-growth",
+                        "asset": "4.0%"
+                    }
+                ]
+            },
+            "HDFC Bank Ltd.": {
+                "average": "5.41%",
+                "min": "3.61%",
+                "max": "7.21%",
+                "count": 2,
+                "mutual_funds": [
+                    {
+                        "name": "birla-sun-life-short-term-fund-direct-growth",
+                        "asset": "3.61%"
+                    },
+                    {
+                        "name": "mirae-asset-corporate-bond-fund-direct-growth",
+                        "asset": "7.21%"
+                    }
+                ]
+            },
+            "Export-Import Bank Of India": {
+                "average": "3.53%",
+                "min": "3.53%",
+                "max": "3.53%",
+                "count": 2,
+                "mutual_funds": [
+                    {
+                        "name": "birla-sun-life-short-term-fund-direct-growth",
+                        "asset": "3.53%"
+                    },
+                    {
+                        "name": "invesco-india-active-i-come-fund-direct-growth",
+                        "asset": "3.53%"
+                    }
+                ]
+            },
+            "Hindustan Petroleum Corporation Ltd.": {
+                "average": "3.37%",
+                "min": "3.21%",
+                "max": "3.52%",
+                "count": 2,
+                "mutual_funds": [
+                    {
+                        "name": "idfc-corporate-bond-fund-direct-growth",
+                        "asset": "3.52%"
+                    },
+                    {
+                        "name": "baroda-bnp-paribas-corporate-bond-fund-direct-growth",
+                        "asset": "3.21%"
+                    }
+                ]
+            },
+            "NTPC Ltd.": {
+                "average": "3.79%",
+                "min": "3.7%",
+                "max": "3.87%",
+                "count": 2,
+                "mutual_funds": [
+                    {
+                        "name": "hsbc-corporate-bond-direct-growth",
+                        "asset": "3.87%"
+                    },
+                    {
+                        "name": "hsbc-corporate-bond-direct-growth",
+                        "asset": "3.7%"
+                    }
+                ]
+            },
+            "Muthoot Finance Ltd.": {
+                "average": "4.28%",
+                "min": "2.36%",
+                "max": "6.19%",
+                "count": 2,
+                "mutual_funds": [
+                    {
+                        "name": "tata-corporate-bond-fund-direct-growth",
+                        "asset": "2.36%"
+                    },
+                    {
+                        "name": "pgim-india-corporate-bond-direct-plan-growth",
+                        "asset": "6.19%"
+                    }
+                ]
+            },
+            "HDB Financial Services Ltd.": {
+                "average": "1.72%",
+                "min": "1.72%",
+                "max": "1.72%",
+                "count": 1,
+                "mutual_funds": [
+                    {
+                        "name": "icici-prudential-corporate-bond-fund-direct-plan-growth",
+                        "asset": "1.72%"
+                    }
+                ]
+            },
+            "Mahindra & Mahindra Financial Services Ltd.": {
+                "average": "0.86%",
+                "min": "0.86%",
+                "max": "0.86%",
+                "count": 1,
+                "mutual_funds": [
+                    {
+                        "name": "icici-prudential-corporate-bond-fund-direct-plan-growth",
+                        "asset": "0.86%"
+                    }
+                ]
+            },
+            "L&T Finance Ltd.": {
+                "average": "5.38%",
+                "min": "5.38%",
+                "max": "5.38%",
+                "count": 1,
+                "mutual_funds": [
+                    {
+                        "name": "birla-sun-life-short-term-fund-direct-growth",
+                        "asset": "5.38%"
+                    }
+                ]
+            },
+            "Mindspace Business Parks REIT": {
+                "average": "1.4%",
+                "min": "1.4%",
+                "max": "1.4%",
+                "count": 1,
+                "mutual_funds": [
+                    {
+                        "name": "birla-sun-life-short-term-fund-direct-growth",
+                        "asset": "1.4%"
+                    }
+                ]
+            },
+            "Aditya Birla Finance Ltd.": {
+                "average": "2.65%",
+                "min": "2.65%",
+                "max": "2.65%",
+                "count": 1,
+                "mutual_funds": [
+                    {
+                        "name": "kotak-corporate-bond-fund-direct-growth",
+                        "asset": "2.65%"
+                    }
+                ]
+            },
+            "Bajaj Finance Ltd.": {
+                "average": "1.8%",
+                "min": "1.8%",
+                "max": "1.8%",
+                "count": 1,
+                "mutual_funds": [
+                    {
+                        "name": "axis-corporate-bond-fund-direct-growth",
+                        "asset": "1.8%"
+                    }
+                ]
+            },
+            "Kotak Mahindra Prime Ltd.": {
+                "average": "1.42%",
+                "min": "1.42%",
+                "max": "1.42%",
+                "count": 1,
+                "mutual_funds": [
+                    {
+                        "name": "uti-corporate-bond-fund-direct-growth",
+                        "asset": "1.42%"
+                    }
+                ]
+            },
+            "Sikka Ports and Terminals Ltd.": {
+                "average": "6.47%",
+                "min": "6.47%",
+                "max": "6.47%",
+                "count": 1,
+                "mutual_funds": [
+                    {
+                        "name": "franklin-india-iba-direct-growth",
+                        "asset": "6.47%"
+                    }
+                ]
+            }
+        }
+    },
+    "Financial": {
+        "stocks": {
+            "REC Ltd.": {
+                "average": "2.03%",
+                "min": "0.43%",
+                "max": "9.12%",
+                "count": 42,
+                "mutual_funds": [
+                    {
+                        "name": "hdfc-medium-term-opportunities-fund-direct-growth",
+                        "asset": "2.23%"
+                    },
+                    {
+                        "name": "hdfc-medium-term-opportunities-fund-direct-growth",
+                        "asset": "1.04%"
+                    },
+                    {
+                        "name": "hdfc-medium-term-opportunities-fund-direct-growth",
+                        "asset": "1.02%"
+                    },
+                    {
+                        "name": "hdfc-medium-term-opportunities-fund-direct-growth",
+                        "asset": "0.92%"
+                    },
+                    {
+                        "name": "hdfc-medium-term-opportunities-fund-direct-growth",
+                        "asset": "0.75%"
+                    },
+                    {
+                        "name": "hdfc-medium-term-opportunities-fund-direct-growth",
+                        "asset": "0.68%"
+                    },
+                    {
+                        "name": "hdfc-medium-term-opportunities-fund-direct-growth",
+                        "asset": "0.45%"
+                    },
+                    {
+                        "name": "hdfc-medium-term-opportunities-fund-direct-growth",
+                        "asset": "0.43%"
+                    },
+                    {
+                        "name": "icici-prudential-corporate-bond-fund-direct-plan-growth",
+                        "asset": "1.44%"
+                    },
+                    {
+                        "name": "icici-prudential-corporate-bond-fund-direct-plan-growth",
+                        "asset": "0.88%"
+                    },
+                    {
+                        "name": "icici-prudential-corporate-bond-fund-direct-plan-growth",
+                        "asset": "0.88%"
+                    },
+                    {
+                        "name": "icici-prudential-corporate-bond-fund-direct-plan-growth",
+                        "asset": "0.59%"
+                    },
+                    {
+                        "name": "birla-sun-life-short-term-fund-direct-growth",
+                        "asset": "1.94%"
+                    },
+                    {
+                        "name": "birla-sun-life-short-term-fund-direct-growth",
+                        "asset": "1.14%"
+                    },
+                    {
+                        "name": "birla-sun-life-short-term-fund-direct-growth",
+                        "asset": "0.8%"
+                    },
+                    {
+                        "name": "birla-sun-life-short-term-fund-direct-growth",
+                        "asset": "0.61%"
+                    },
+                    {
+                        "name": "sbi-corporate-bond-fund-direct-growth",
+                        "asset": "2.03%"
+                    },
+                    {
+                        "name": "kotak-corporate-bond-fund-direct-growth",
+                        "asset": "1.88%"
+                    },
+                    {
+                        "name": "kotak-corporate-bond-fund-direct-growth",
+                        "asset": "1.87%"
+                    },
+                    {
+                        "name": "kotak-corporate-bond-fund-direct-growth",
+                        "asset": "1.63%"
+                    },
+                    {
+                        "name": "kotak-corporate-bond-fund-direct-growth",
+                        "asset": "1.43%"
+                    },
+                    {
+                        "name": "nippon-india-corporate-bond-fund-direct-growth",
+                        "asset": "1.46%"
+                    },
+                    {
+                        "name": "nippon-india-corporate-bond-fund-direct-growth",
+                        "asset": "1.44%"
+                    },
+                    {
+                        "name": "nippon-india-corporate-bond-fund-direct-growth",
+                        "asset": "1.2%"
+                    },
+                    {
+                        "name": "axis-corporate-bond-fund-direct-growth",
+                        "asset": "1.02%"
+                    },
+                    {
+                        "name": "axis-corporate-bond-fund-direct-growth",
+                        "asset": "0.86%"
+                    },
+                    {
+                        "name": "invesco-india-active-i-come-fund-direct-growth",
+                        "asset": "1.28%"
+                    },
+                    {
+                        "name": "invesco-india-active-i-come-fund-direct-growth",
+                        "asset": "1.11%"
+                    },
+                    {
+                        "name": "hsbc-corporate-bond-direct-growth",
+                        "asset": "2.81%"
+                    },
+                    {
+                        "name": "hsbc-corporate-bond-direct-growth",
+                        "asset": "2.72%"
+                    },
+                    {
+                        "name": "hsbc-corporate-bond-direct-growth",
+                        "asset": "1.71%"
+                    },
+                    {
+                        "name": "uti-corporate-bond-fund-direct-growth",
+                        "asset": "1.87%"
+                    },
+                    {
+                        "name": "tata-corporate-bond-fund-direct-growth",
+                        "asset": "2.32%"
+                    },
+                    {
+                        "name": "tata-corporate-bond-fund-direct-growth",
+                        "asset": "1.23%"
+                    },
+                    {
+                        "name": "tata-corporate-bond-fund-direct-growth",
+                        "asset": "1.19%"
+                    },
+                    {
+                        "name": "franklin-india-iba-direct-growth",
+                        "asset": "5.8%"
+                    },
+                    {
+                        "name": "sundaram-flexible-fund-flexible-i-come-direct-growth",
+                        "asset": "6.66%"
+                    },
+                    {
+                        "name": "union-corporate-bond-fund-direct-growth",
+                        "asset": "4.1%"
+                    },
+                    {
+                        "name": "canara-robeco-medium-term-opportunities-fund-direct-growth",
+                        "asset": "9.12%"
+                    },
+                    {
+                        "name": "pgim-india-corporate-bond-direct-plan-growth",
+                        "asset": "5.91%"
+                    },
+                    {
+                        "name": "dsp-corporate-bond-fund-direct-growth",
+                        "asset": "3.94%"
+                    },
+                    {
+                        "name": "dsp-corporate-bond-fund-direct-growth",
+                        "asset": "2.76%"
+                    }
+                ]
+            },
+            "Power Finance Corporation Ltd.": {
+                "average": "1.59%",
+                "min": "0.57%",
+                "max": "6.81%",
+                "count": 37,
+                "mutual_funds": [
+                    {
+                        "name": "hdfc-medium-term-opportunities-fund-direct-growth",
+                        "asset": "0.87%"
+                    },
+                    {
+                        "name": "hdfc-medium-term-opportunities-fund-direct-growth",
+                        "asset": "0.7%"
+                    },
+                    {
+                        "name": "hdfc-medium-term-opportunities-fund-direct-growth",
+                        "asset": "0.68%"
+                    },
+                    {
+                        "name": "hdfc-medium-term-opportunities-fund-direct-growth",
+                        "asset": "0.64%"
+                    },
+                    {
+                        "name": "hdfc-medium-term-opportunities-fund-direct-growth",
+                        "asset": "0.6%"
+                    },
+                    {
+                        "name": "hdfc-medium-term-opportunities-fund-direct-growth",
+                        "asset": "0.57%"
+                    },
+                    {
+                        "name": "icici-prudential-corporate-bond-fund-direct-plan-growth",
+                        "asset": "1.61%"
+                    },
+                    {
+                        "name": "icici-prudential-corporate-bond-fund-direct-plan-growth",
+                        "asset": "1.18%"
+                    },
+                    {
+                        "name": "icici-prudential-corporate-bond-fund-direct-plan-growth",
+                        "asset": "0.95%"
+                    },
+                    {
+                        "name": "icici-prudential-corporate-bond-fund-direct-plan-growth",
+                        "asset": "0.79%"
+                    },
+                    {
+                        "name": "birla-sun-life-short-term-fund-direct-growth",
+                        "asset": "1.11%"
+                    },
+                    {
+                        "name": "birla-sun-life-short-term-fund-direct-growth",
+                        "asset": "0.96%"
+                    },
+                    {
+                        "name": "birla-sun-life-short-term-fund-direct-growth",
+                        "asset": "0.85%"
+                    },
+                    {
+                        "name": "birla-sun-life-short-term-fund-direct-growth",
+                        "asset": "0.67%"
+                    },
+                    {
+                        "name": "kotak-corporate-bond-fund-direct-growth",
+                        "asset": "1.75%"
+                    },
+                    {
+                        "name": "idfc-corporate-bond-fund-direct-growth",
+                        "asset": "1.53%"
+                    },
+                    {
+                        "name": "nippon-india-corporate-bond-fund-direct-growth",
+                        "asset": "2.01%"
+                    },
+                    {
+                        "name": "nippon-india-corporate-bond-fund-direct-growth",
+                        "asset": "1.66%"
+                    },
+                    {
+                        "name": "nippon-india-corporate-bond-fund-direct-growth",
+                        "asset": "1.46%"
+                    },
+                    {
+                        "name": "nippon-india-corporate-bond-fund-direct-growth",
+                        "asset": "1.44%"
+                    },
+                    {
+                        "name": "nippon-india-corporate-bond-fund-direct-growth",
+                        "asset": "0.97%"
+                    },
+                    {
+                        "name": "axis-corporate-bond-fund-direct-growth",
+                        "asset": "1.85%"
+                    },
+                    {
+                        "name": "axis-corporate-bond-fund-direct-growth",
+                        "asset": "1.32%"
+                    },
+                    {
+                        "name": "axis-corporate-bond-fund-direct-growth",
+                        "asset": "1.07%"
+                    },
+                    {
+                        "name": "axis-corporate-bond-fund-direct-growth",
+                        "asset": "1.04%"
+                    },
+                    {
+                        "name": "axis-corporate-bond-fund-direct-growth",
+                        "asset": "0.81%"
+                    },
+                    {
+                        "name": "invesco-india-active-i-come-fund-direct-growth",
+                        "asset": "1.97%"
+                    },
+                    {
+                        "name": "uti-corporate-bond-fund-direct-growth",
+                        "asset": "1.87%"
+                    },
+                    {
+                        "name": "tata-corporate-bond-fund-direct-growth",
+                        "asset": "2.98%"
+                    },
+                    {
+                        "name": "tata-corporate-bond-fund-direct-growth",
+                        "asset": "2.36%"
+                    },
+                    {
+                        "name": "tata-corporate-bond-fund-direct-growth",
+                        "asset": "1.33%"
+                    },
+                    {
+                        "name": "tata-corporate-bond-fund-direct-growth",
+                        "asset": "1.19%"
+                    },
+                    {
+                        "name": "mirae-asset-corporate-bond-fund-direct-growth",
+                        "asset": "6.81%"
+                    },
+                    {
+                        "name": "dsp-corporate-bond-fund-direct-growth",
+                        "asset": "3.84%"
+                    },
+                    {
+                        "name": "dsp-corporate-bond-fund-direct-growth",
+                        "asset": "2.64%"
+                    },
+                    {
+                        "name": "dsp-corporate-bond-fund-direct-growth",
+                        "asset": "2.36%"
+                    },
+                    {
+                        "name": "dsp-corporate-bond-fund-direct-growth",
+                        "asset": "2.36%"
+                    }
+                ]
+            },
+            "Indian Railway Finance Corporation Ltd.": {
+                "average": "1.98%",
+                "min": "0.58%",
+                "max": "4.64%",
+                "count": 27,
+                "mutual_funds": [
+                    {
+                        "name": "hdfc-medium-term-opportunities-fund-direct-growth",
+                        "asset": "1.46%"
+                    },
+                    {
+                        "name": "hdfc-medium-term-opportunities-fund-direct-growth",
+                        "asset": "0.8%"
+                    },
+                    {
+                        "name": "hdfc-medium-term-opportunities-fund-direct-growth",
+                        "asset": "0.72%"
+                    },
+                    {
+                        "name": "hdfc-medium-term-opportunities-fund-direct-growth",
+                        "asset": "0.58%"
+                    },
+                    {
+                        "name": "birla-sun-life-short-term-fund-direct-growth",
+                        "asset": "0.92%"
+                    },
+                    {
+                        "name": "idfc-corporate-bond-fund-direct-growth",
+                        "asset": "1.66%"
+                    },
+                    {
+                        "name": "nippon-india-corporate-bond-fund-direct-growth",
+                        "asset": "1.67%"
+                    },
+                    {
+                        "name": "nippon-india-corporate-bond-fund-direct-growth",
+                        "asset": "1.54%"
+                    },
+                    {
+                        "name": "nippon-india-corporate-bond-fund-direct-growth",
+                        "asset": "1.26%"
+                    },
+                    {
+                        "name": "nippon-india-corporate-bond-fund-direct-growth",
+                        "asset": "1.19%"
+                    },
+                    {
+                        "name": "nippon-india-corporate-bond-fund-direct-growth",
+                        "asset": "0.99%"
+                    },
+                    {
+                        "name": "axis-corporate-bond-fund-direct-growth",
+                        "asset": "2.14%"
+                    },
+                    {
+                        "name": "axis-corporate-bond-fund-direct-growth",
+                        "asset": "1.7%"
+                    },
+                    {
+                        "name": "axis-corporate-bond-fund-direct-growth",
+                        "asset": "1.54%"
+                    },
+                    {
+                        "name": "invesco-india-active-i-come-fund-direct-growth",
+                        "asset": "3.39%"
+                    },
+                    {
+                        "name": "invesco-india-active-i-come-fund-direct-growth",
+                        "asset": "2.09%"
+                    },
+                    {
+                        "name": "invesco-india-active-i-come-fund-direct-growth",
+                        "asset": "1.71%"
+                    },
+                    {
+                        "name": "hsbc-corporate-bond-direct-growth",
+                        "asset": "2.45%"
+                    },
+                    {
+                        "name": "hsbc-corporate-bond-direct-growth",
+                        "asset": "2.34%"
+                    },
+                    {
+                        "name": "uti-corporate-bond-fund-direct-growth",
+                        "asset": "2.8%"
+                    },
+                    {
+                        "name": "uti-corporate-bond-fund-direct-growth",
+                        "asset": "1.87%"
+                    },
+                    {
+                        "name": "uti-corporate-bond-fund-direct-growth",
+                        "asset": "1.87%"
+                    },
+                    {
+                        "name": "tata-corporate-bond-fund-direct-growth",
+                        "asset": "1.17%"
+                    },
+                    {
+                        "name": "union-corporate-bond-fund-direct-growth",
+                        "asset": "4.17%"
+                    },
+                    {
+                        "name": "union-corporate-bond-fund-direct-growth",
+                        "asset": "4.09%"
+                    },
+                    {
+                        "name": "dsp-corporate-bond-fund-direct-growth",
+                        "asset": "4.64%"
+                    },
+                    {
+                        "name": "dsp-corporate-bond-fund-direct-growth",
+                        "asset": "2.75%"
+                    }
+                ]
+            },
+            "GOI": {
+                "average": "1.79%",
+                "min": "0.59%",
+                "max": "6.31%",
+                "count": 26,
+                "mutual_funds": [
+                    {
+                        "name": "hdfc-medium-term-opportunities-fund-direct-growth",
+                        "asset": "0.95%"
+                    },
+                    {
+                        "name": "birla-sun-life-short-term-fund-direct-growth",
+                        "asset": "0.83%"
+                    },
+                    {
+                        "name": "birla-sun-life-short-term-fund-direct-growth",
+                        "asset": "0.82%"
+                    },
+                    {
+                        "name": "birla-sun-life-short-term-fund-direct-growth",
+                        "asset": "0.75%"
+                    },
+                    {
+                        "name": "birla-sun-life-short-term-fund-direct-growth",
+                        "asset": "0.63%"
+                    },
+                    {
+                        "name": "birla-sun-life-short-term-fund-direct-growth",
+                        "asset": "0.59%"
+                    },
+                    {
+                        "name": "birla-sun-life-short-term-fund-direct-growth",
+                        "asset": "0.59%"
+                    },
+                    {
+                        "name": "kotak-corporate-bond-fund-direct-growth",
+                        "asset": "1.75%"
+                    },
+                    {
+                        "name": "idfc-corporate-bond-fund-direct-growth",
+                        "asset": "2.01%"
+                    },
+                    {
+                        "name": "axis-corporate-bond-fund-direct-growth",
+                        "asset": "0.81%"
+                    },
+                    {
+                        "name": "axis-corporate-bond-fund-direct-growth",
+                        "asset": "0.81%"
+                    },
+                    {
+                        "name": "axis-corporate-bond-fund-direct-growth",
+                        "asset": "0.81%"
+                    },
+                    {
+                        "name": "axis-corporate-bond-fund-direct-growth",
+                        "asset": "0.81%"
+                    },
+                    {
+                        "name": "invesco-india-active-i-come-fund-direct-growth",
+                        "asset": "1.04%"
+                    },
+                    {
+                        "name": "hsbc-corporate-bond-direct-growth",
+                        "asset": "1.68%"
+                    },
+                    {
+                        "name": "tata-corporate-bond-fund-direct-growth",
+                        "asset": "1.81%"
+                    },
+                    {
+                        "name": "tata-corporate-bond-fund-direct-growth",
+                        "asset": "1.49%"
+                    },
+                    {
+                        "name": "tata-corporate-bond-fund-direct-growth",
+                        "asset": "1.2%"
+                    },
+                    {
+                        "name": "tata-corporate-bond-fund-direct-growth",
+                        "asset": "1.18%"
+                    },
+                    {
+                        "name": "tata-corporate-bond-fund-direct-growth",
+                        "asset": "1.17%"
+                    },
+                    {
+                        "name": "tata-corporate-bond-fund-direct-growth",
+                        "asset": "1.09%"
+                    },
+                    {
+                        "name": "sundaram-flexible-fund-flexible-i-come-direct-growth",
+                        "asset": "5.28%"
+                    },
+                    {
+                        "name": "sundaram-flexible-fund-flexible-i-come-direct-growth",
+                        "asset": "3.96%"
+                    },
+                    {
+                        "name": "baroda-bnp-paribas-corporate-bond-fund-direct-growth",
+                        "asset": "6.31%"
+                    },
+                    {
+                        "name": "baroda-bnp-paribas-corporate-bond-fund-direct-growth",
+                        "asset": "2.1%"
+                    },
+                    {
+                        "name": "pgim-india-corporate-bond-direct-plan-growth",
+                        "asset": "5.94%"
+                    }
+                ]
+            },
+            "National Bank For Agriculture & Rural Development": {
+                "average": "3.0%",
+                "min": "0.61%",
+                "max": "9.9%",
+                "count": 15,
+                "mutual_funds": [
+                    {
+                        "name": "icici-prudential-corporate-bond-fund-direct-plan-growth",
+                        "asset": "4.34%"
+                    },
+                    {
+                        "name": "birla-sun-life-short-term-fund-direct-growth",
+                        "asset": "1.09%"
+                    },
+                    {
+                        "name": "birla-sun-life-short-term-fund-direct-growth",
+                        "asset": "0.61%"
+                    },
+                    {
+                        "name": "kotak-corporate-bond-fund-direct-growth",
+                        "asset": "3.14%"
+                    },
+                    {
+                        "name": "idfc-corporate-bond-fund-direct-growth",
+                        "asset": "1.71%"
+                    },
+                    {
+                        "name": "idfc-corporate-bond-fund-direct-growth",
+                        "asset": "1.68%"
+                    },
+                    {
+                        "name": "axis-corporate-bond-fund-direct-growth",
+                        "asset": "2.12%"
+                    },
+                    {
+                        "name": "axis-corporate-bond-fund-direct-growth",
+                        "asset": "1.87%"
+                    },
+                    {
+                        "name": "invesco-india-active-i-come-fund-direct-growth",
+                        "asset": "1.25%"
+                    },
+                    {
+                        "name": "invesco-india-active-i-come-fund-direct-growth",
+                        "asset": "1.17%"
+                    },
+                    {
+                        "name": "hsbc-corporate-bond-direct-growth",
+                        "asset": "1.65%"
+                    },
+                    {
+                        "name": "uti-corporate-bond-fund-direct-growth",
+                        "asset": "3.28%"
+                    },
+                    {
+                        "name": "baroda-bnp-paribas-corporate-bond-fund-direct-growth",
+                        "asset": "2.13%"
+                    },
+                    {
+                        "name": "canara-robeco-medium-term-opportunities-fund-direct-growth",
+                        "asset": "9.07%"
+                    },
+                    {
+                        "name": "trustmf-corporate-bond-fund-direct-growth",
+                        "asset": "9.9%"
+                    }
+                ]
+            },
+            "National Highways Authority of India Ltd.": {
+                "average": "1.34%",
+                "min": "0.57%",
+                "max": "3.22%",
+                "count": 12,
+                "mutual_funds": [
+                    {
+                        "name": "hdfc-medium-term-opportunities-fund-direct-growth",
+                        "asset": "3.22%"
+                    },
+                    {
+                        "name": "hdfc-medium-term-opportunities-fund-direct-growth",
+                        "asset": "0.73%"
+                    },
+                    {
+                        "name": "hdfc-medium-term-opportunities-fund-direct-growth",
+                        "asset": "0.7%"
+                    },
+                    {
+                        "name": "hdfc-medium-term-opportunities-fund-direct-growth",
+                        "asset": "0.58%"
+                    },
+                    {
+                        "name": "hdfc-medium-term-opportunities-fund-direct-growth",
+                        "asset": "0.57%"
+                    },
+                    {
+                        "name": "idfc-corporate-bond-fund-direct-growth",
+                        "asset": "1.71%"
+                    },
+                    {
+                        "name": "idfc-corporate-bond-fund-direct-growth",
+                        "asset": "1.34%"
+                    },
+                    {
+                        "name": "idfc-corporate-bond-fund-direct-growth",
+                        "asset": "1.02%"
+                    },
+                    {
+                        "name": "invesco-india-active-i-come-fund-direct-growth",
+                        "asset": "1.06%"
+                    },
+                    {
+                        "name": "invesco-india-active-i-come-fund-direct-growth",
+                        "asset": "1.04%"
+                    },
+                    {
+                        "name": "hsbc-corporate-bond-direct-growth",
+                        "asset": "2.14%"
+                    },
+                    {
+                        "name": "hsbc-corporate-bond-direct-growth",
+                        "asset": "2.02%"
+                    }
+                ]
+            },
+            "Small Industries Devp. Bank of India Ltd.": {
+                "average": "2.38%",
+                "min": "0.45%",
+                "max": "5.94%",
+                "count": 10,
+                "mutual_funds": [
+                    {
+                        "name": "hdfc-medium-term-opportunities-fund-direct-growth",
+                        "asset": "0.71%"
+                    },
+                    {
+                        "name": "hdfc-medium-term-opportunities-fund-direct-growth",
+                        "asset": "0.45%"
+                    },
+                    {
+                        "name": "birla-sun-life-short-term-fund-direct-growth",
+                        "asset": "1.18%"
+                    },
+                    {
+                        "name": "kotak-corporate-bond-fund-direct-growth",
+                        "asset": "2.1%"
+                    },
+                    {
+                        "name": "axis-corporate-bond-fund-direct-growth",
+                        "asset": "2.63%"
+                    },
+                    {
+                        "name": "invesco-india-active-i-come-fund-direct-growth",
+                        "asset": "1.71%"
+                    },
+                    {
+                        "name": "uti-corporate-bond-fund-direct-growth",
+                        "asset": "2.77%"
+                    },
+                    {
+                        "name": "tata-corporate-bond-fund-direct-growth",
+                        "asset": "2.99%"
+                    },
+                    {
+                        "name": "sundaram-flexible-fund-flexible-i-come-direct-growth",
+                        "asset": "3.31%"
+                    },
+                    {
+                        "name": "pgim-india-corporate-bond-direct-plan-growth",
+                        "asset": "5.94%"
+                    }
+                ]
+            },
+            "National Housing Bank": {
+                "average": "3.86%",
+                "min": "0.73%",
+                "max": "14.91%",
+                "count": 9,
+                "mutual_funds": [
+                    {
+                        "name": "hdfc-medium-term-opportunities-fund-direct-growth",
+                        "asset": "0.73%"
+                    },
+                    {
+                        "name": "idfc-corporate-bond-fund-direct-growth",
+                        "asset": "2.49%"
+                    },
+                    {
+                        "name": "axis-corporate-bond-fund-direct-growth",
+                        "asset": "1.0%"
+                    },
+                    {
+                        "name": "axis-corporate-bond-fund-direct-growth",
+                        "asset": "0.92%"
+                    },
+                    {
+                        "name": "invesco-india-active-i-come-fund-direct-growth",
+                        "asset": "1.38%"
+                    },
+                    {
+                        "name": "tata-corporate-bond-fund-direct-growth",
+                        "asset": "2.99%"
+                    },
+                    {
+                        "name": "union-corporate-bond-fund-direct-growth",
+                        "asset": "4.09%"
+                    },
+                    {
+                        "name": "mirae-asset-corporate-bond-fund-direct-growth",
+                        "asset": "6.21%"
+                    },
+                    {
+                        "name": "trustmf-corporate-bond-fund-direct-growth",
+                        "asset": "14.91%"
+                    }
+                ]
+            },
+            "NTPC Ltd.": {
+                "average": "1.5%",
+                "min": "0.52%",
+                "max": "3.13%",
+                "count": 8,
+                "mutual_funds": [
+                    {
+                        "name": "hdfc-medium-term-opportunities-fund-direct-growth",
+                        "asset": "0.58%"
+                    },
+                    {
+                        "name": "hdfc-medium-term-opportunities-fund-direct-growth",
+                        "asset": "0.52%"
+                    },
+                    {
+                        "name": "birla-sun-life-short-term-fund-direct-growth",
+                        "asset": "1.1%"
+                    },
+                    {
+                        "name": "idfc-corporate-bond-fund-direct-growth",
+                        "asset": "1.53%"
+                    },
+                    {
+                        "name": "idfc-corporate-bond-fund-direct-growth",
+                        "asset": "1.2%"
+                    },
+                    {
+                        "name": "uti-corporate-bond-fund-direct-growth",
+                        "asset": "2.14%"
+                    },
+                    {
+                        "name": "uti-corporate-bond-fund-direct-growth",
+                        "asset": "1.83%"
+                    },
+                    {
+                        "name": "baroda-bnp-paribas-corporate-bond-fund-direct-growth",
+                        "asset": "3.13%"
+                    }
+                ]
+            },
+            "HDB Financial Services Ltd.": {
+                "average": "2.49%",
+                "min": "1.35%",
+                "max": "5.31%",
+                "count": 7,
+                "mutual_funds": [
+                    {
+                        "name": "hdfc-medium-term-opportunities-fund-direct-growth",
+                        "asset": "1.35%"
+                    },
+                    {
+                        "name": "sbi-corporate-bond-fund-direct-growth",
+                        "asset": "1.98%"
+                    },
+                    {
+                        "name": "kotak-corporate-bond-fund-direct-growth",
+                        "asset": "2.34%"
+                    },
+                    {
+                        "name": "nippon-india-corporate-bond-fund-direct-growth",
+                        "asset": "2.38%"
+                    },
+                    {
+                        "name": "axis-corporate-bond-fund-direct-growth",
+                        "asset": "1.9%"
+                    },
+                    {
+                        "name": "invesco-india-active-i-come-fund-direct-growth",
+                        "asset": "2.14%"
+                    },
+                    {
+                        "name": "mirae-asset-corporate-bond-fund-direct-growth",
+                        "asset": "5.31%"
+                    }
+                ]
+            },
+            "Bajaj Housing Finance Ltd.": {
+                "average": "1.83%",
+                "min": "0.59%",
+                "max": "5.96%",
+                "count": 7,
+                "mutual_funds": [
+                    {
+                        "name": "hdfc-medium-term-opportunities-fund-direct-growth",
+                        "asset": "0.84%"
+                    },
+                    {
+                        "name": "icici-prudential-corporate-bond-fund-direct-plan-growth",
+                        "asset": "0.59%"
+                    },
+                    {
+                        "name": "birla-sun-life-short-term-fund-direct-growth",
+                        "asset": "1.12%"
+                    },
+                    {
+                        "name": "birla-sun-life-short-term-fund-direct-growth",
+                        "asset": "1.0%"
+                    },
+                    {
+                        "name": "idfc-corporate-bond-fund-direct-growth",
+                        "asset": "1.0%"
+                    },
+                    {
+                        "name": "invesco-india-active-i-come-fund-direct-growth",
+                        "asset": "2.33%"
+                    },
+                    {
+                        "name": "pgim-india-corporate-bond-direct-plan-growth",
+                        "asset": "5.96%"
+                    }
+                ]
+            },
+            "Housing & Urban Development Corporation Ltd.": {
+                "average": "1.59%",
+                "min": "0.73%",
+                "max": "2.98%",
+                "count": 7,
+                "mutual_funds": [
+                    {
+                        "name": "hdfc-medium-term-opportunities-fund-direct-growth",
+                        "asset": "0.73%"
+                    },
+                    {
+                        "name": "icici-prudential-corporate-bond-fund-direct-plan-growth",
+                        "asset": "1.14%"
+                    },
+                    {
+                        "name": "icici-prudential-corporate-bond-fund-direct-plan-growth",
+                        "asset": "0.83%"
+                    },
+                    {
+                        "name": "birla-sun-life-short-term-fund-direct-growth",
+                        "asset": "1.53%"
+                    },
+                    {
+                        "name": "hsbc-corporate-bond-direct-growth",
+                        "asset": "2.98%"
+                    },
+                    {
+                        "name": "hsbc-corporate-bond-direct-growth",
+                        "asset": "1.82%"
+                    },
+                    {
+                        "name": "baroda-bnp-paribas-corporate-bond-fund-direct-growth",
+                        "asset": "2.11%"
+                    }
+                ]
+            },
+            "Jamnagar Utilities and Power Pvt. Ltd.": {
+                "average": "2.5%",
+                "min": "0.5%",
+                "max": "4.16%",
+                "count": 7,
+                "mutual_funds": [
+                    {
+                        "name": "hdfc-medium-term-opportunities-fund-direct-growth",
+                        "asset": "0.5%"
+                    },
+                    {
+                        "name": "icici-prudential-corporate-bond-fund-direct-plan-growth",
+                        "asset": "0.6%"
+                    },
+                    {
+                        "name": "birla-sun-life-short-term-fund-direct-growth",
+                        "asset": "4.02%"
+                    },
+                    {
+                        "name": "kotak-corporate-bond-fund-direct-growth",
+                        "asset": "2.82%"
+                    },
+                    {
+                        "name": "union-corporate-bond-fund-direct-growth",
+                        "asset": "4.16%"
+                    },
+                    {
+                        "name": "baroda-bnp-paribas-corporate-bond-fund-direct-growth",
+                        "asset": "2.31%"
+                    },
+                    {
+                        "name": "dsp-corporate-bond-fund-direct-growth",
+                        "asset": "3.09%"
+                    }
+                ]
+            },
+            "Bajaj Finance Ltd.": {
+                "average": "1.34%",
+                "min": "0.64%",
+                "max": "2.24%",
+                "count": 6,
+                "mutual_funds": [
+                    {
+                        "name": "hdfc-medium-term-opportunities-fund-direct-growth",
+                        "asset": "0.73%"
+                    },
+                    {
+                        "name": "birla-sun-life-short-term-fund-direct-growth",
+                        "asset": "0.64%"
+                    },
+                    {
+                        "name": "idfc-corporate-bond-fund-direct-growth",
+                        "asset": "1.52%"
+                    },
+                    {
+                        "name": "axis-corporate-bond-fund-direct-growth",
+                        "asset": "1.0%"
+                    },
+                    {
+                        "name": "hsbc-corporate-bond-direct-growth",
+                        "asset": "1.91%"
+                    },
+                    {
+                        "name": "dsp-corporate-bond-fund-direct-growth",
+                        "asset": "2.24%"
+                    }
+                ]
+            },
+            "Sikka Ports and Terminals Ltd.": {
+                "average": "1.82%",
+                "min": "0.43%",
+                "max": "3.33%",
+                "count": 6,
+                "mutual_funds": [
+                    {
+                        "name": "hdfc-medium-term-opportunities-fund-direct-growth",
+                        "asset": "0.43%"
+                    },
+                    {
+                        "name": "icici-prudential-corporate-bond-fund-direct-plan-growth",
+                        "asset": "1.56%"
+                    },
+                    {
+                        "name": "icici-prudential-corporate-bond-fund-direct-plan-growth",
+                        "asset": "0.78%"
+                    },
+                    {
+                        "name": "union-corporate-bond-fund-direct-growth",
+                        "asset": "3.33%"
+                    },
+                    {
+                        "name": "dsp-corporate-bond-fund-direct-growth",
+                        "asset": "2.5%"
+                    },
+                    {
+                        "name": "dsp-corporate-bond-fund-direct-growth",
+                        "asset": "2.34%"
+                    }
+                ]
+            },
+            "Power Grid Corporation Of India Ltd.": {
+                "average": "1.75%",
+                "min": "0.92%",
+                "max": "3.97%",
+                "count": 5,
+                "mutual_funds": [
+                    {
+                        "name": "hdfc-medium-term-opportunities-fund-direct-growth",
+                        "asset": "1.32%"
+                    },
+                    {
+                        "name": "idfc-corporate-bond-fund-direct-growth",
+                        "asset": "1.34%"
+                    },
+                    {
+                        "name": "idfc-corporate-bond-fund-direct-growth",
+                        "asset": "1.19%"
+                    },
+                    {
+                        "name": "axis-corporate-bond-fund-direct-growth",
+                        "asset": "0.92%"
+                    },
+                    {
+                        "name": "dsp-corporate-bond-fund-direct-growth",
+                        "asset": "3.97%"
+                    }
+                ]
+            },
+            "HDFC Bank Ltd.": {
+                "average": "0.81%",
+                "min": "0.66%",
+                "max": "0.92%",
+                "count": 5,
+                "mutual_funds": [
+                    {
+                        "name": "hdfc-medium-term-opportunities-fund-direct-growth",
+                        "asset": "0.88%"
+                    },
+                    {
+                        "name": "icici-prudential-corporate-bond-fund-direct-plan-growth",
+                        "asset": "0.92%"
+                    },
+                    {
+                        "name": "icici-prudential-corporate-bond-fund-direct-plan-growth",
+                        "asset": "0.89%"
+                    },
+                    {
+                        "name": "icici-prudential-corporate-bond-fund-direct-plan-growth",
+                        "asset": "0.69%"
+                    },
+                    {
+                        "name": "birla-sun-life-short-term-fund-direct-growth",
+                        "asset": "0.66%"
+                    }
+                ]
+            },
+            "Tata Capital Housing Finance Ltd.": {
+                "average": "1.61%",
+                "min": "0.6%",
+                "max": "3.28%",
+                "count": 5,
+                "mutual_funds": [
+                    {
+                        "name": "icici-prudential-corporate-bond-fund-direct-plan-growth",
+                        "asset": "0.6%"
+                    },
+                    {
+                        "name": "sbi-corporate-bond-fund-direct-growth",
+                        "asset": "3.28%"
+                    },
+                    {
+                        "name": "kotak-corporate-bond-fund-direct-growth",
+                        "asset": "1.64%"
+                    },
+                    {
+                        "name": "axis-corporate-bond-fund-direct-growth",
+                        "asset": "1.34%"
+                    },
+                    {
+                        "name": "axis-corporate-bond-fund-direct-growth",
+                        "asset": "1.17%"
+                    }
+                ]
+            },
+            "Hindustan Petroleum Corporation Ltd.": {
+                "average": "1.66%",
+                "min": "0.74%",
+                "max": "3.92%",
+                "count": 4,
+                "mutual_funds": [
+                    {
+                        "name": "hdfc-medium-term-opportunities-fund-direct-growth",
+                        "asset": "1.09%"
+                    },
+                    {
+                        "name": "hdfc-medium-term-opportunities-fund-direct-growth",
+                        "asset": "0.87%"
+                    },
+                    {
+                        "name": "hdfc-medium-term-opportunities-fund-direct-growth",
+                        "asset": "0.74%"
+                    },
+                    {
+                        "name": "baroda-bnp-paribas-corporate-bond-fund-direct-growth",
+                        "asset": "3.92%"
+                    }
+                ]
+            },
+            "Kotak Mahindra Prime Ltd.": {
+                "average": "1.58%",
+                "min": "0.87%",
+                "max": "2.41%",
+                "count": 4,
+                "mutual_funds": [
+                    {
+                        "name": "hdfc-medium-term-opportunities-fund-direct-growth",
+                        "asset": "0.87%"
+                    },
+                    {
+                        "name": "axis-corporate-bond-fund-direct-growth",
+                        "asset": "1.08%"
+                    },
+                    {
+                        "name": "hsbc-corporate-bond-direct-growth",
+                        "asset": "1.97%"
+                    },
+                    {
+                        "name": "uti-corporate-bond-fund-direct-growth",
+                        "asset": "2.41%"
+                    }
+                ]
+            },
+            "Indian Oil Corporation Ltd.": {
+                "average": "2.47%",
+                "min": "0.86%",
+                "max": "5.93%",
+                "count": 4,
+                "mutual_funds": [
+                    {
+                        "name": "hdfc-medium-term-opportunities-fund-direct-growth",
+                        "asset": "0.86%"
+                    },
+                    {
+                        "name": "uti-corporate-bond-fund-direct-growth",
+                        "asset": "1.68%"
+                    },
+                    {
+                        "name": "uti-corporate-bond-fund-direct-growth",
+                        "asset": "1.41%"
+                    },
+                    {
+                        "name": "sundaram-flexible-fund-flexible-i-come-direct-growth",
+                        "asset": "5.93%"
+                    }
+                ]
+            },
+            "Export-Import Bank Of India": {
+                "average": "2.31%",
+                "min": "0.44%",
+                "max": "4.21%",
+                "count": 4,
+                "mutual_funds": [
+                    {
+                        "name": "hdfc-medium-term-opportunities-fund-direct-growth",
+                        "asset": "0.44%"
+                    },
+                    {
+                        "name": "kotak-corporate-bond-fund-direct-growth",
+                        "asset": "1.32%"
+                    },
+                    {
+                        "name": "uti-corporate-bond-fund-direct-growth",
+                        "asset": "3.28%"
+                    },
+                    {
+                        "name": "baroda-bnp-paribas-corporate-bond-fund-direct-growth",
+                        "asset": "4.21%"
+                    }
+                ]
+            },
+            "NHPC Ltd.": {
+                "average": "0.4%",
+                "min": "0.38%",
+                "max": "0.42%",
+                "count": 3,
+                "mutual_funds": [
+                    {
+                        "name": "hdfc-medium-term-opportunities-fund-direct-growth",
+                        "asset": "0.42%"
+                    },
+                    {
+                        "name": "hdfc-medium-term-opportunities-fund-direct-growth",
+                        "asset": "0.39%"
+                    },
+                    {
+                        "name": "hdfc-medium-term-opportunities-fund-direct-growth",
+                        "asset": "0.38%"
+                    }
+                ]
+            },
+            "Sundaram Finance Ltd.": {
+                "average": "1.33%",
+                "min": "1.06%",
+                "max": "1.59%",
+                "count": 3,
+                "mutual_funds": [
+                    {
+                        "name": "axis-corporate-bond-fund-direct-growth",
+                        "asset": "1.34%"
+                    },
+                    {
+                        "name": "axis-corporate-bond-fund-direct-growth",
+                        "asset": "1.06%"
+                    },
+                    {
+                        "name": "dsp-corporate-bond-fund-direct-growth",
+                        "asset": "1.59%"
+                    }
+                ]
+            },
+            "National Bank For Financing Infrastructure And Development": {
+                "average": "1.44%",
+                "min": "1.4%",
+                "max": "1.47%",
+                "count": 2,
+                "mutual_funds": [
+                    {
+                        "name": "hdfc-medium-term-opportunities-fund-direct-growth",
+                        "asset": "1.47%"
+                    },
+                    {
+                        "name": "axis-corporate-bond-fund-direct-growth",
+                        "asset": "1.4%"
+                    }
+                ]
+            },
+            "Reliance Industries Ltd.": {
+                "average": "1.92%",
+                "min": "0.73%",
+                "max": "3.1%",
+                "count": 2,
+                "mutual_funds": [
+                    {
+                        "name": "hdfc-medium-term-opportunities-fund-direct-growth",
+                        "asset": "0.73%"
+                    },
+                    {
+                        "name": "idfc-corporate-bond-fund-direct-growth",
+                        "asset": "3.1%"
+                    }
+                ]
+            },
+            "State Bank of India": {
+                "average": "0.65%",
+                "min": "0.58%",
+                "max": "0.72%",
+                "count": 2,
+                "mutual_funds": [
+                    {
+                        "name": "hdfc-medium-term-opportunities-fund-direct-growth",
+                        "asset": "0.72%"
+                    },
+                    {
+                        "name": "hdfc-medium-term-opportunities-fund-direct-growth",
+                        "asset": "0.58%"
+                    }
+                ]
+            },
+            "LIC Housing Finance Ltd.": {
+                "average": "1.17%",
+                "min": "0.83%",
+                "max": "1.5%",
+                "count": 2,
+                "mutual_funds": [
+                    {
+                        "name": "icici-prudential-corporate-bond-fund-direct-plan-growth",
+                        "asset": "1.5%"
+                    },
+                    {
+                        "name": "birla-sun-life-short-term-fund-direct-growth",
+                        "asset": "0.83%"
+                    }
+                ]
+            },
+            "Samvardhana Motherson International Ltd.": {
+                "average": "1.01%",
+                "min": "0.9%",
+                "max": "1.11%",
+                "count": 2,
+                "mutual_funds": [
+                    {
+                        "name": "icici-prudential-corporate-bond-fund-direct-plan-growth",
+                        "asset": "1.11%"
+                    },
+                    {
+                        "name": "icici-prudential-corporate-bond-fund-direct-plan-growth",
+                        "asset": "0.9%"
+                    }
+                ]
+            },
+            "Rajasthan State": {
+                "average": "0.6%",
+                "min": "0.59%",
+                "max": "0.6%",
+                "count": 2,
+                "mutual_funds": [
+                    {
+                        "name": "icici-prudential-corporate-bond-fund-direct-plan-growth",
+                        "asset": "0.59%"
+                    },
+                    {
+                        "name": "birla-sun-life-short-term-fund-direct-growth",
+                        "asset": "0.6%"
+                    }
+                ]
+            },
+            "Mindspace Business Parks REIT": {
+                "average": "1.54%",
+                "min": "1.2%",
+                "max": "1.88%",
+                "count": 2,
+                "mutual_funds": [
+                    {
+                        "name": "birla-sun-life-short-term-fund-direct-growth",
+                        "asset": "1.88%"
+                    },
+                    {
+                        "name": "tata-corporate-bond-fund-direct-growth",
+                        "asset": "1.2%"
+                    }
+                ]
+            },
+            "SMFG India Credit Company Ltd.": {
+                "average": "1.72%",
+                "min": "1.1%",
+                "max": "2.34%",
+                "count": 2,
+                "mutual_funds": [
+                    {
+                        "name": "birla-sun-life-short-term-fund-direct-growth",
+                        "asset": "1.1%"
+                    },
+                    {
+                        "name": "sbi-corporate-bond-fund-direct-growth",
+                        "asset": "2.34%"
+                    }
+                ]
+            },
+            "Bharat Sanchar Nigam Ltd": {
+                "average": "1.29%",
+                "min": "1.19%",
+                "max": "1.39%",
+                "count": 2,
+                "mutual_funds": [
+                    {
+                        "name": "sbi-corporate-bond-fund-direct-growth",
+                        "asset": "1.39%"
+                    },
+                    {
+                        "name": "tata-corporate-bond-fund-direct-growth",
+                        "asset": "1.19%"
+                    }
+                ]
+            },
+            "Toyota Financial Services Ltd.": {
+                "average": "1.41%",
+                "min": "1.11%",
+                "max": "1.7%",
+                "count": 2,
+                "mutual_funds": [
+                    {
+                        "name": "nippon-india-corporate-bond-fund-direct-growth",
+                        "asset": "1.7%"
+                    },
+                    {
+                        "name": "invesco-india-active-i-come-fund-direct-growth",
+                        "asset": "1.11%"
+                    }
+                ]
+            },
+            "Kotak Mahindra Investments Ltd.": {
+                "average": "6.0%",
+                "min": "5.92%",
+                "max": "6.08%",
+                "count": 2,
+                "mutual_funds": [
+                    {
+                        "name": "franklin-india-iba-direct-growth",
+                        "asset": "6.08%"
+                    },
+                    {
+                        "name": "pgim-india-corporate-bond-direct-plan-growth",
+                        "asset": "5.92%"
+                    }
+                ]
+            },
+            "Grasim Industries Ltd.": {
+                "average": "5.72%",
+                "min": "2.21%",
+                "max": "9.22%",
+                "count": 2,
+                "mutual_funds": [
+                    {
+                        "name": "canara-robeco-medium-term-opportunities-fund-direct-growth",
+                        "asset": "9.22%"
+                    },
+                    {
+                        "name": "dsp-corporate-bond-fund-direct-growth",
+                        "asset": "2.21%"
+                    }
+                ]
+            },
+            "Mangalore Refinery And Petrochemicals Ltd.": {
+                "average": "1.46%",
+                "min": "1.46%",
+                "max": "1.46%",
+                "count": 1,
+                "mutual_funds": [
+                    {
+                        "name": "hdfc-medium-term-opportunities-fund-direct-growth",
+                        "asset": "1.46%"
+                    }
+                ]
+            },
+            "Tamilnadu State": {
+                "average": "0.36%",
+                "min": "0.36%",
+                "max": "0.36%",
+                "count": 1,
+                "mutual_funds": [
+                    {
+                        "name": "hdfc-medium-term-opportunities-fund-direct-growth",
+                        "asset": "0.36%"
+                    }
+                ]
+            },
+            "Embassy Office Parks REIT": {
+                "average": "0.75%",
+                "min": "0.75%",
+                "max": "0.75%",
+                "count": 1,
+                "mutual_funds": [
+                    {
+                        "name": "icici-prudential-corporate-bond-fund-direct-plan-growth",
+                        "asset": "0.75%"
+                    }
+                ]
+            },
+            "Mahanagar Telephone Nigam Ltd.": {
+                "average": "2.34%",
+                "min": "2.34%",
+                "max": "2.34%",
+                "count": 1,
+                "mutual_funds": [
+                    {
+                        "name": "sbi-corporate-bond-fund-direct-growth",
+                        "asset": "2.34%"
+                    }
+                ]
+            },
+            "Sundaram Home Finance Ltd.": {
+                "average": "1.45%",
+                "min": "1.45%",
+                "max": "1.45%",
+                "count": 1,
+                "mutual_funds": [
+                    {
+                        "name": "sbi-corporate-bond-fund-direct-growth",
+                        "asset": "1.45%"
+                    }
+                ]
+            },
+            "Mahindra & Mahindra Ltd.": {
+                "average": "1.88%",
+                "min": "1.88%",
+                "max": "1.88%",
+                "count": 1,
+                "mutual_funds": [
+                    {
+                        "name": "idfc-corporate-bond-fund-direct-growth",
+                        "asset": "1.88%"
+                    }
+                ]
+            },
+            "Aditya Birla Finance Ltd.": {
+                "average": "1.95%",
+                "min": "1.95%",
+                "max": "1.95%",
+                "count": 1,
+                "mutual_funds": [
+                    {
+                        "name": "nippon-india-corporate-bond-fund-direct-growth",
+                        "asset": "1.95%"
+                    }
+                ]
+            },
+            "L&T Finance Ltd.": {
+                "average": "1.27%",
+                "min": "1.27%",
+                "max": "1.27%",
+                "count": 1,
+                "mutual_funds": [
+                    {
+                        "name": "nippon-india-corporate-bond-fund-direct-growth",
+                        "asset": "1.27%"
+                    }
+                ]
+            },
+            "Maharashtra State": {
+                "average": "1.2%",
+                "min": "1.2%",
+                "max": "1.2%",
+                "count": 1,
+                "mutual_funds": [
+                    {
+                        "name": "tata-corporate-bond-fund-direct-growth",
+                        "asset": "1.2%"
+                    }
+                ]
+            },
+            "ICICI Bank Ltd.": {
+                "average": "3.79%",
+                "min": "3.79%",
+                "max": "3.79%",
+                "count": 1,
+                "mutual_funds": [
+                    {
+                        "name": "franklin-india-iba-direct-growth",
+                        "asset": "3.79%"
+                    }
+                ]
+            },
+            "Standard Chartered Bank": {
+                "average": "3.76%",
+                "min": "3.76%",
+                "max": "3.76%",
+                "count": 1,
+                "mutual_funds": [
+                    {
+                        "name": "franklin-india-iba-direct-growth",
+                        "asset": "3.76%"
+                    }
+                ]
+            },
+            "GAIL (India) Ltd.": {
+                "average": "3.09%",
+                "min": "3.09%",
+                "max": "3.09%",
+                "count": 1,
+                "mutual_funds": [
+                    {
+                        "name": "baroda-bnp-paribas-corporate-bond-fund-direct-growth",
+                        "asset": "3.09%"
+                    }
+                ]
+            },
+            "National Highways Infra Trust": {
+                "average": "2.52%",
+                "min": "2.52%",
+                "max": "2.52%",
+                "count": 1,
+                "mutual_funds": [
+                    {
+                        "name": "baroda-bnp-paribas-corporate-bond-fund-direct-growth",
+                        "asset": "2.52%"
+                    }
+                ]
+            }
+        }
+    },
+    "Others": {
+        "stocks": {
+            "National Bank For Agriculture & Rural Development": {
+                "average": "1.48%",
+                "min": "0.62%",
+                "max": "2.63%",
+                "count": 8,
+                "mutual_funds": [
+                    {
+                        "name": "hdfc-medium-term-opportunities-fund-direct-growth",
+                        "asset": "1.23%"
+                    },
+                    {
+                        "name": "hdfc-medium-term-opportunities-fund-direct-growth",
+                        "asset": "0.76%"
+                    },
+                    {
+                        "name": "icici-prudential-corporate-bond-fund-direct-plan-growth",
+                        "asset": "0.62%"
+                    },
+                    {
+                        "name": "sbi-corporate-bond-fund-direct-growth",
+                        "asset": "2.63%"
+                    },
+                    {
+                        "name": "nippon-india-corporate-bond-fund-direct-growth",
+                        "asset": "1.93%"
+                    },
+                    {
+                        "name": "axis-corporate-bond-fund-direct-growth",
+                        "asset": "2.07%"
+                    },
+                    {
+                        "name": "axis-corporate-bond-fund-direct-growth",
+                        "asset": "0.98%"
+                    },
+                    {
+                        "name": "hsbc-corporate-bond-direct-growth",
+                        "asset": "1.65%"
+                    }
+                ]
+            },
+            "Power Finance Corporation Ltd.": {
+                "average": "1.69%",
+                "min": "0.59%",
+                "max": "2.97%",
+                "count": 6,
+                "mutual_funds": [
+                    {
+                        "name": "icici-prudential-corporate-bond-fund-direct-plan-growth",
+                        "asset": "2.97%"
+                    },
+                    {
+                        "name": "icici-prudential-corporate-bond-fund-direct-plan-growth",
+                        "asset": "0.86%"
+                    },
+                    {
+                        "name": "icici-prudential-corporate-bond-fund-direct-plan-growth",
+                        "asset": "0.59%"
+                    },
+                    {
+                        "name": "nippon-india-corporate-bond-fund-direct-growth",
+                        "asset": "1.38%"
+                    },
+                    {
+                        "name": "uti-corporate-bond-fund-direct-growth",
+                        "asset": "1.95%"
+                    },
+                    {
+                        "name": "tata-corporate-bond-fund-direct-growth",
+                        "asset": "2.37%"
+                    }
+                ]
+            },
+            "REC Ltd.": {
+                "average": "1.68%",
+                "min": "1.33%",
+                "max": "1.99%",
+                "count": 4,
+                "mutual_funds": [
+                    {
+                        "name": "icici-prudential-corporate-bond-fund-direct-plan-growth",
+                        "asset": "1.46%"
+                    },
+                    {
+                        "name": "nippon-india-corporate-bond-fund-direct-growth",
+                        "asset": "1.92%"
+                    },
+                    {
+                        "name": "nippon-india-corporate-bond-fund-direct-growth",
+                        "asset": "1.33%"
+                    },
+                    {
+                        "name": "hsbc-corporate-bond-direct-growth",
+                        "asset": "1.99%"
+                    }
+                ]
+            },
+            "Indian Railway Finance Corporation Ltd.": {
+                "average": "1.26%",
+                "min": "0.79%",
+                "max": "1.81%",
+                "count": 3,
+                "mutual_funds": [
+                    {
+                        "name": "hdfc-medium-term-opportunities-fund-direct-growth",
+                        "asset": "0.79%"
+                    },
+                    {
+                        "name": "nippon-india-corporate-bond-fund-direct-growth",
+                        "asset": "1.81%"
+                    },
+                    {
+                        "name": "tata-corporate-bond-fund-direct-growth",
+                        "asset": "1.18%"
+                    }
+                ]
+            },
+            "NHPC Ltd.": {
+                "average": "0.38%",
+                "min": "0.37%",
+                "max": "0.38%",
+                "count": 2,
+                "mutual_funds": [
+                    {
+                        "name": "hdfc-medium-term-opportunities-fund-direct-growth",
+                        "asset": "0.38%"
+                    },
+                    {
+                        "name": "hdfc-medium-term-opportunities-fund-direct-growth",
+                        "asset": "0.37%"
+                    }
+                ]
+            },
+            "Kotak Mahindra Investments Ltd.": {
+                "average": "0.91%",
+                "min": "0.58%",
+                "max": "1.23%",
+                "count": 2,
+                "mutual_funds": [
+                    {
+                        "name": "icici-prudential-corporate-bond-fund-direct-plan-growth",
+                        "asset": "1.23%"
+                    },
+                    {
+                        "name": "icici-prudential-corporate-bond-fund-direct-plan-growth",
+                        "asset": "0.58%"
+                    }
+                ]
+            },
+            "L&T Metro Rail (Hyderabad) Ltd.": {
+                "average": "2.67%",
+                "min": "2.67%",
+                "max": "2.67%",
+                "count": 1,
+                "mutual_funds": [
+                    {
+                        "name": "icici-prudential-corporate-bond-fund-direct-plan-growth",
+                        "asset": "2.67%"
+                    }
+                ]
+            },
+            "Mahanagar Telephone Nigam Ltd.": {
+                "average": "1.46%",
+                "min": "1.46%",
+                "max": "1.46%",
+                "count": 1,
+                "mutual_funds": [
+                    {
+                        "name": "icici-prudential-corporate-bond-fund-direct-plan-growth",
+                        "asset": "1.46%"
+                    }
+                ]
+            },
+            "Hindustan Petroleum Corporation Ltd.": {
+                "average": "0.57%",
+                "min": "0.57%",
+                "max": "0.57%",
+                "count": 1,
+                "mutual_funds": [
+                    {
+                        "name": "icici-prudential-corporate-bond-fund-direct-plan-growth",
+                        "asset": "0.57%"
+                    }
+                ]
+            },
+            "Bajaj Housing Finance Ltd.": {
+                "average": "2.44%",
+                "min": "2.44%",
+                "max": "2.44%",
+                "count": 1,
+                "mutual_funds": [
+                    {
+                        "name": "sbi-corporate-bond-fund-direct-growth",
+                        "asset": "2.44%"
+                    }
+                ]
+            },
+            "Mindspace Business Parks REIT": {
+                "average": "2.39%",
+                "min": "2.39%",
+                "max": "2.39%",
+                "count": 1,
+                "mutual_funds": [
+                    {
+                        "name": "sbi-corporate-bond-fund-direct-growth",
+                        "asset": "2.39%"
+                    }
+                ]
+            },
+            "IndiGrid Infrastructure Trust": {
+                "average": "1.44%",
+                "min": "1.44%",
+                "max": "1.44%",
+                "count": 1,
+                "mutual_funds": [
+                    {
+                        "name": "axis-corporate-bond-fund-direct-growth",
+                        "asset": "1.44%"
+                    }
+                ]
+            }
+        }
+    },
+    "Services": {
+        "stocks": {
+            "National Bank For Agriculture & Rural Development": {
+                "average": "1.22%",
+                "min": "1.22%",
+                "max": "1.22%",
+                "count": 1,
+                "mutual_funds": [
+                    {
+                        "name": "hdfc-medium-term-opportunities-fund-direct-growth",
+                        "asset": "1.22%"
+                    }
+                ]
+            },
+            "Power Finance Corporation Ltd.": {
+                "average": "2.83%",
+                "min": "2.83%",
+                "max": "2.83%",
+                "count": 1,
+                "mutual_funds": [
+                    {
+                        "name": "hsbc-corporate-bond-direct-growth",
+                        "asset": "2.83%"
+                    }
+                ]
+            },
+            "GOI": {
+                "average": "2.17%",
+                "min": "2.17%",
+                "max": "2.17%",
+                "count": 1,
+                "mutual_funds": [
+                    {
+                        "name": "hsbc-corporate-bond-direct-growth",
+                        "asset": "2.17%"
+                    }
+                ]
+            }
+        }
+    },
+    "Construction": {
+        "stocks": {
+            "REC Ltd.": {
+                "average": "1.43%",
+                "min": "1.15%",
+                "max": "1.77%",
+                "count": 4,
+                "mutual_funds": [
+                    {
+                        "name": "hdfc-medium-term-opportunities-fund-direct-growth",
+                        "asset": "1.15%"
+                    },
+                    {
+                        "name": "sbi-corporate-bond-fund-direct-growth",
+                        "asset": "1.59%"
+                    },
+                    {
+                        "name": "nippon-india-corporate-bond-fund-direct-growth",
+                        "asset": "1.2%"
+                    },
+                    {
+                        "name": "tata-corporate-bond-fund-direct-growth",
+                        "asset": "1.77%"
+                    }
+                ]
+            },
+            "Power Finance Corporation Ltd.": {
+                "average": "0.7%",
+                "min": "0.59%",
+                "max": "0.9%",
+                "count": 3,
+                "mutual_funds": [
+                    {
+                        "name": "hdfc-medium-term-opportunities-fund-direct-growth",
+                        "asset": "0.6%"
+                    },
+                    {
+                        "name": "icici-prudential-corporate-bond-fund-direct-plan-growth",
+                        "asset": "0.9%"
+                    },
+                    {
+                        "name": "icici-prudential-corporate-bond-fund-direct-plan-growth",
+                        "asset": "0.59%"
+                    }
+                ]
+            },
+            "National Bank For Agriculture & Rural Development": {
+                "average": "2.43%",
+                "min": "0.74%",
+                "max": "4.12%",
+                "count": 3,
+                "mutual_funds": [
+                    {
+                        "name": "icici-prudential-corporate-bond-fund-direct-plan-growth",
+                        "asset": "2.44%"
+                    },
+                    {
+                        "name": "icici-prudential-corporate-bond-fund-direct-plan-growth",
+                        "asset": "0.74%"
+                    },
+                    {
+                        "name": "idfc-corporate-bond-fund-direct-growth",
+                        "asset": "4.12%"
+                    }
+                ]
+            },
+            "Indian Railway Finance Corporation Ltd.": {
+                "average": "3.93%",
+                "min": "1.19%",
+                "max": "9.11%",
+                "count": 3,
+                "mutual_funds": [
+                    {
+                        "name": "idfc-corporate-bond-fund-direct-growth",
+                        "asset": "1.49%"
+                    },
+                    {
+                        "name": "idfc-corporate-bond-fund-direct-growth",
+                        "asset": "1.19%"
+                    },
+                    {
+                        "name": "canara-robeco-medium-term-opportunities-fund-direct-growth",
+                        "asset": "9.11%"
+                    }
+                ]
+            },
+            "National Housing Bank": {
+                "average": "0.95%",
+                "min": "0.87%",
+                "max": "1.03%",
+                "count": 2,
+                "mutual_funds": [
+                    {
+                        "name": "birla-sun-life-short-term-fund-direct-growth",
+                        "asset": "0.87%"
+                    },
+                    {
+                        "name": "idfc-corporate-bond-fund-direct-growth",
+                        "asset": "1.03%"
+                    }
+                ]
+            },
+            "Jamnagar Utilities and Power Pvt. Ltd.": {
+                "average": "1.58%",
+                "min": "0.76%",
+                "max": "2.39%",
+                "count": 2,
+                "mutual_funds": [
+                    {
+                        "name": "birla-sun-life-short-term-fund-direct-growth",
+                        "asset": "0.76%"
+                    },
+                    {
+                        "name": "invesco-india-active-i-come-fund-direct-growth",
+                        "asset": "2.39%"
+                    }
+                ]
+            },
+            "GOI": {
+                "average": "1.33%",
+                "min": "1.18%",
+                "max": "1.48%",
+                "count": 2,
+                "mutual_funds": [
+                    {
+                        "name": "kotak-corporate-bond-fund-direct-growth",
+                        "asset": "1.48%"
+                    },
+                    {
+                        "name": "tata-corporate-bond-fund-direct-growth",
+                        "asset": "1.18%"
+                    }
+                ]
+            },
+            "National Highways Authority of India Ltd.": {
+                "average": "1.19%",
+                "min": "1.02%",
+                "max": "1.36%",
+                "count": 2,
+                "mutual_funds": [
+                    {
+                        "name": "idfc-corporate-bond-fund-direct-growth",
+                        "asset": "1.36%"
+                    },
+                    {
+                        "name": "nippon-india-corporate-bond-fund-direct-growth",
+                        "asset": "1.02%"
+                    }
+                ]
+            },
+            "Sundaram Finance Ltd.": {
+                "average": "2.94%",
+                "min": "2.94%",
+                "max": "2.94%",
+                "count": 1,
+                "mutual_funds": [
+                    {
+                        "name": "sbi-corporate-bond-fund-direct-growth",
+                        "asset": "2.94%"
+                    }
+                ]
+            },
+            "Small Industries Devp. Bank of India Ltd.": {
+                "average": "1.59%",
+                "min": "1.59%",
+                "max": "1.59%",
+                "count": 1,
+                "mutual_funds": [
+                    {
+                        "name": "kotak-corporate-bond-fund-direct-growth",
+                        "asset": "1.59%"
+                    }
+                ]
+            },
+            "Bajaj Housing Finance Ltd.": {
+                "average": "1.35%",
+                "min": "1.35%",
+                "max": "1.35%",
+                "count": 1,
+                "mutual_funds": [
+                    {
+                        "name": "kotak-corporate-bond-fund-direct-growth",
+                        "asset": "1.35%"
+                    }
+                ]
+            },
+            "Grasim Industries Ltd.": {
+                "average": "2.21%",
+                "min": "2.21%",
+                "max": "2.21%",
+                "count": 1,
+                "mutual_funds": [
+                    {
+                        "name": "idfc-corporate-bond-fund-direct-growth",
+                        "asset": "2.21%"
+                    }
+                ]
+            },
+            "HDB Financial Services Ltd.": {
+                "average": "0.98%",
+                "min": "0.98%",
+                "max": "0.98%",
+                "count": 1,
+                "mutual_funds": [
+                    {
+                        "name": "nippon-india-corporate-bond-fund-direct-growth",
+                        "asset": "0.98%"
+                    }
+                ]
+            },
+            "Export-Import Bank Of India": {
+                "average": "1.06%",
+                "min": "1.06%",
+                "max": "1.06%",
+                "count": 1,
+                "mutual_funds": [
+                    {
+                        "name": "axis-corporate-bond-fund-direct-growth",
+                        "asset": "1.06%"
+                    }
+                ]
+            },
+            "Power Grid Corporation Of India Ltd.": {
+                "average": "1.37%",
+                "min": "1.37%",
+                "max": "1.37%",
+                "count": 1,
+                "mutual_funds": [
+                    {
+                        "name": "invesco-india-active-i-come-fund-direct-growth",
+                        "asset": "1.37%"
+                    }
+                ]
+            },
+            "Muthoot Finance Ltd.": {
+                "average": "1.19%",
+                "min": "1.19%",
+                "max": "1.19%",
+                "count": 1,
+                "mutual_funds": [
+                    {
+                        "name": "tata-corporate-bond-fund-direct-growth",
+                        "asset": "1.19%"
+                    }
+                ]
+            },
+            "IDFC First Bank Ltd.": {
+                "average": "3.74%",
+                "min": "3.74%",
+                "max": "3.74%",
+                "count": 1,
+                "mutual_funds": [
+                    {
+                        "name": "franklin-india-iba-direct-growth",
+                        "asset": "3.74%"
+                    }
+                ]
+            },
+            "IndiGrid Infrastructure Trust": {
+                "average": "2.1%",
+                "min": "2.1%",
+                "max": "2.1%",
+                "count": 1,
+                "mutual_funds": [
+                    {
+                        "name": "baroda-bnp-paribas-corporate-bond-fund-direct-growth",
+                        "asset": "2.1%"
+                    }
+                ]
+            }
+        }
+    },
+    "Energy": {
+        "stocks": {
+            "Power Finance Corporation Ltd.": {
+                "average": "2.66%",
+                "min": "0.63%",
+                "max": "4.11%",
+                "count": 4,
+                "mutual_funds": [
+                    {
+                        "name": "hdfc-medium-term-opportunities-fund-direct-growth",
+                        "asset": "0.63%"
+                    },
+                    {
+                        "name": "uti-corporate-bond-fund-direct-growth",
+                        "asset": "1.97%"
+                    },
+                    {
+                        "name": "franklin-india-iba-direct-growth",
+                        "asset": "3.91%"
+                    },
+                    {
+                        "name": "union-corporate-bond-fund-direct-growth",
+                        "asset": "4.11%"
+                    }
+                ]
+            },
+            "Small Industries Devp. Bank of India Ltd.": {
+                "average": "3.35%",
+                "min": "2.85%",
+                "max": "4.15%",
+                "count": 3,
+                "mutual_funds": [
+                    {
+                        "name": "hsbc-corporate-bond-direct-growth",
+                        "asset": "2.85%"
+                    },
+                    {
+                        "name": "union-corporate-bond-fund-direct-growth",
+                        "asset": "4.15%"
+                    },
+                    {
+                        "name": "baroda-bnp-paribas-corporate-bond-fund-direct-growth",
+                        "asset": "3.06%"
+                    }
+                ]
+            },
+            "GOI": {
+                "average": "1.15%",
+                "min": "1.14%",
+                "max": "1.16%",
+                "count": 2,
+                "mutual_funds": [
+                    {
+                        "name": "hdfc-medium-term-opportunities-fund-direct-growth",
+                        "asset": "1.14%"
+                    },
+                    {
+                        "name": "axis-corporate-bond-fund-direct-growth",
+                        "asset": "1.16%"
+                    }
+                ]
+            },
+            "Indian Railway Finance Corporation Ltd.": {
+                "average": "1.85%",
+                "min": "1.09%",
+                "max": "2.61%",
+                "count": 2,
+                "mutual_funds": [
+                    {
+                        "name": "hdfc-medium-term-opportunities-fund-direct-growth",
+                        "asset": "1.09%"
+                    },
+                    {
+                        "name": "dsp-corporate-bond-fund-direct-growth",
+                        "asset": "2.61%"
+                    }
+                ]
+            },
+            "National Bank For Agriculture & Rural Development": {
+                "average": "1.29%",
+                "min": "0.44%",
+                "max": "2.14%",
+                "count": 2,
+                "mutual_funds": [
+                    {
+                        "name": "hdfc-medium-term-opportunities-fund-direct-growth",
+                        "asset": "0.44%"
+                    },
+                    {
+                        "name": "baroda-bnp-paribas-corporate-bond-fund-direct-growth",
+                        "asset": "2.14%"
+                    }
+                ]
+            },
+            "Power Grid Corporation Of India Ltd.": {
+                "average": "3.16%",
+                "min": "1.7%",
+                "max": "4.62%",
+                "count": 2,
+                "mutual_funds": [
+                    {
+                        "name": "idfc-corporate-bond-fund-direct-growth",
+                        "asset": "1.7%"
+                    },
+                    {
+                        "name": "hsbc-corporate-bond-direct-growth",
+                        "asset": "4.62%"
+                    }
+                ]
+            },
+            "REC Ltd.": {
+                "average": "1.3%",
+                "min": "1.21%",
+                "max": "1.38%",
+                "count": 2,
+                "mutual_funds": [
+                    {
+                        "name": "idfc-corporate-bond-fund-direct-growth",
+                        "asset": "1.38%"
+                    },
+                    {
+                        "name": "idfc-corporate-bond-fund-direct-growth",
+                        "asset": "1.21%"
+                    }
+                ]
+            },
+            "Indian Oil Corporation Ltd.": {
+                "average": "5.21%",
+                "min": "5.05%",
+                "max": "5.37%",
+                "count": 2,
+                "mutual_funds": [
+                    {
+                        "name": "hsbc-corporate-bond-direct-growth",
+                        "asset": "5.05%"
+                    },
+                    {
+                        "name": "dsp-corporate-bond-fund-direct-growth",
+                        "asset": "5.37%"
+                    }
+                ]
+            },
+            "State Bank of India": {
+                "average": "0.72%",
+                "min": "0.72%",
+                "max": "0.72%",
+                "count": 1,
+                "mutual_funds": [
+                    {
+                        "name": "hdfc-medium-term-opportunities-fund-direct-growth",
+                        "asset": "0.72%"
+                    }
+                ]
+            },
+            "NHPC Ltd.": {
+                "average": "0.39%",
+                "min": "0.39%",
+                "max": "0.39%",
+                "count": 1,
+                "mutual_funds": [
+                    {
+                        "name": "hdfc-medium-term-opportunities-fund-direct-growth",
+                        "asset": "0.39%"
+                    }
+                ]
+            },
+            "Kotak Mahindra Prime Ltd.": {
+                "average": "0.37%",
+                "min": "0.37%",
+                "max": "0.37%",
+                "count": 1,
+                "mutual_funds": [
+                    {
+                        "name": "hdfc-medium-term-opportunities-fund-direct-growth",
+                        "asset": "0.37%"
+                    }
+                ]
+            },
+            "Reliance Industries Ltd.": {
+                "average": "4.06%",
+                "min": "4.06%",
+                "max": "4.06%",
+                "count": 1,
+                "mutual_funds": [
+                    {
+                        "name": "idfc-corporate-bond-fund-direct-growth",
+                        "asset": "4.06%"
+                    }
+                ]
+            },
+            "Grasim Industries Ltd.": {
+                "average": "3.45%",
+                "min": "3.45%",
+                "max": "3.45%",
+                "count": 1,
+                "mutual_funds": [
+                    {
+                        "name": "idfc-corporate-bond-fund-direct-growth",
+                        "asset": "3.45%"
+                    }
+                ]
+            },
+            "National Highways Authority of India Ltd.": {
+                "average": "3.55%",
+                "min": "3.55%",
+                "max": "3.55%",
+                "count": 1,
+                "mutual_funds": [
+                    {
+                        "name": "hsbc-corporate-bond-direct-growth",
+                        "asset": "3.55%"
+                    }
+                ]
+            },
+            "Mindspace Business Parks REIT": {
+                "average": "1.23%",
+                "min": "1.23%",
+                "max": "1.23%",
+                "count": 1,
+                "mutual_funds": [
+                    {
+                        "name": "tata-corporate-bond-fund-direct-growth",
+                        "asset": "1.23%"
+                    }
+                ]
+            },
+            "Bharat Sanchar Nigam Ltd": {
+                "average": "2.12%",
+                "min": "2.12%",
+                "max": "2.12%",
+                "count": 1,
+                "mutual_funds": [
+                    {
+                        "name": "baroda-bnp-paribas-corporate-bond-fund-direct-growth",
+                        "asset": "2.12%"
+                    }
+                ]
+            },
+            "Powergrid Infrastructure Investment Trust": {
+                "average": "2.11%",
+                "min": "2.11%",
+                "max": "2.11%",
+                "count": 1,
+                "mutual_funds": [
+                    {
+                        "name": "baroda-bnp-paribas-corporate-bond-fund-direct-growth",
+                        "asset": "2.11%"
+                    }
+                ]
+            }
+        }
+    },
+    "Capital Goods": {
+        "stocks": {
+            "REC Ltd.": {
+                "average": "2.32%",
+                "min": "1.39%",
+                "max": "3.35%",
+                "count": 3,
+                "mutual_funds": [
+                    {
+                        "name": "icici-prudential-corporate-bond-fund-direct-plan-growth",
+                        "asset": "1.39%"
+                    },
+                    {
+                        "name": "union-corporate-bond-fund-direct-growth",
+                        "asset": "3.35%"
+                    },
+                    {
+                        "name": "dsp-corporate-bond-fund-direct-growth",
+                        "asset": "2.22%"
+                    }
+                ]
+            },
+            "Power Finance Corporation Ltd.": {
+                "average": "1.03%",
+                "min": "0.6%",
+                "max": "1.46%",
+                "count": 2,
+                "mutual_funds": [
+                    {
+                        "name": "icici-prudential-corporate-bond-fund-direct-plan-growth",
+                        "asset": "0.6%"
+                    },
+                    {
+                        "name": "sbi-corporate-bond-fund-direct-growth",
+                        "asset": "1.46%"
+                    }
+                ]
+            },
+            "Interise Trust": {
+                "average": "1.98%",
+                "min": "1.98%",
+                "max": "1.98%",
+                "count": 1,
+                "mutual_funds": [
+                    {
+                        "name": "birla-sun-life-short-term-fund-direct-growth",
+                        "asset": "1.98%"
+                    }
+                ]
+            },
+            "HDB Financial Services Ltd.": {
+                "average": "0.96%",
+                "min": "0.96%",
+                "max": "0.96%",
+                "count": 1,
+                "mutual_funds": [
+                    {
+                        "name": "birla-sun-life-short-term-fund-direct-growth",
+                        "asset": "0.96%"
+                    }
+                ]
+            },
+            "Power Grid Corporation Of India Ltd.": {
+                "average": "1.34%",
+                "min": "1.34%",
+                "max": "1.34%",
+                "count": 1,
+                "mutual_funds": [
+                    {
+                        "name": "axis-corporate-bond-fund-direct-growth",
+                        "asset": "1.34%"
+                    }
+                ]
+            },
+            "GOI": {
+                "average": "1.04%",
+                "min": "1.04%",
+                "max": "1.04%",
+                "count": 1,
+                "mutual_funds": [
+                    {
+                        "name": "invesco-india-active-i-come-fund-direct-growth",
+                        "asset": "1.04%"
+                    }
+                ]
+            }
+        }
+    },
+    "Communication": {
+        "stocks": {
+            "REC Ltd.": {
+                "average": "1.97%",
+                "min": "1.94%",
+                "max": "2.0%",
+                "count": 2,
+                "mutual_funds": [
+                    {
+                        "name": "birla-sun-life-short-term-fund-direct-growth",
+                        "asset": "1.94%"
+                    },
+                    {
+                        "name": "axis-corporate-bond-fund-direct-growth",
+                        "asset": "2.0%"
+                    }
+                ]
+            },
+            "National Bank For Agriculture & Rural Development": {
+                "average": "1.34%",
+                "min": "0.97%",
+                "max": "1.7%",
+                "count": 2,
+                "mutual_funds": [
+                    {
+                        "name": "birla-sun-life-short-term-fund-direct-growth",
+                        "asset": "1.7%"
+                    },
+                    {
+                        "name": "nippon-india-corporate-bond-fund-direct-growth",
+                        "asset": "0.97%"
+                    }
+                ]
+            },
+            "Power Finance Corporation Ltd.": {
+                "average": "2.53%",
+                "min": "1.15%",
+                "max": "3.9%",
+                "count": 2,
+                "mutual_funds": [
+                    {
+                        "name": "invesco-india-active-i-come-fund-direct-growth",
+                        "asset": "1.15%"
+                    },
+                    {
+                        "name": "franklin-india-iba-direct-growth",
+                        "asset": "3.9%"
+                    }
+                ]
+            },
+            "Sundaram Home Finance Ltd.": {
+                "average": "0.86%",
+                "min": "0.86%",
+                "max": "0.86%",
+                "count": 1,
+                "mutual_funds": [
+                    {
+                        "name": "icici-prudential-corporate-bond-fund-direct-plan-growth",
+                        "asset": "0.86%"
+                    }
+                ]
+            },
+            "Grasim Industries Ltd.": {
+                "average": "0.59%",
+                "min": "0.59%",
+                "max": "0.59%",
+                "count": 1,
+                "mutual_funds": [
+                    {
+                        "name": "icici-prudential-corporate-bond-fund-direct-plan-growth",
+                        "asset": "0.59%"
+                    }
+                ]
+            },
+            "Small Industries Devp. Bank of India Ltd.": {
+                "average": "2.83%",
+                "min": "2.83%",
+                "max": "2.83%",
+                "count": 1,
+                "mutual_funds": [
+                    {
+                        "name": "sbi-corporate-bond-fund-direct-growth",
+                        "asset": "2.83%"
+                    }
+                ]
+            },
+            "National Highways Authority of India Ltd.": {
+                "average": "1.08%",
+                "min": "1.08%",
+                "max": "1.08%",
+                "count": 1,
+                "mutual_funds": [
+                    {
+                        "name": "nippon-india-corporate-bond-fund-direct-growth",
+                        "asset": "1.08%"
+                    }
+                ]
+            },
+            "Jamnagar Utilities and Power Pvt. Ltd.": {
+                "average": "1.08%",
+                "min": "1.08%",
+                "max": "1.08%",
+                "count": 1,
+                "mutual_funds": [
+                    {
+                        "name": "axis-corporate-bond-fund-direct-growth",
+                        "asset": "1.08%"
+                    }
+                ]
+            },
+            "Bajaj Housing Finance Ltd.": {
+                "average": "2.05%",
+                "min": "2.05%",
+                "max": "2.05%",
+                "count": 1,
+                "mutual_funds": [
+                    {
+                        "name": "invesco-india-active-i-come-fund-direct-growth",
+                        "asset": "2.05%"
+                    }
+                ]
+            },
+            "Maharashtra State": {
+                "average": "1.22%",
+                "min": "1.22%",
+                "max": "1.22%",
+                "count": 1,
+                "mutual_funds": [
+                    {
+                        "name": "tata-corporate-bond-fund-direct-growth",
+                        "asset": "1.22%"
+                    }
+                ]
+            },
+            "Sikka Ports and Terminals Ltd.": {
+                "average": "1.17%",
+                "min": "1.17%",
+                "max": "1.17%",
+                "count": 1,
+                "mutual_funds": [
+                    {
+                        "name": "tata-corporate-bond-fund-direct-growth",
+                        "asset": "1.17%"
+                    }
+                ]
+            },
+            "Power Grid Corporation Of India Ltd.": {
+                "average": "4.93%",
+                "min": "4.93%",
+                "max": "4.93%",
+                "count": 1,
+                "mutual_funds": [
+                    {
+                        "name": "union-corporate-bond-fund-direct-growth",
+                        "asset": "4.93%"
+                    }
+                ]
+            }
+        }
+    },
+    "Consumer Staples": {
+        "stocks": {
+            "Sundaram Finance Ltd.": {
+                "average": "1.06%",
+                "min": "1.06%",
+                "max": "1.06%",
+                "count": 1,
+                "mutual_funds": [
+                    {
+                        "name": "axis-corporate-bond-fund-direct-growth",
+                        "asset": "1.06%"
+                    }
+                ]
+            },
+            "ICICI Home Finance Company Ltd.": {
+                "average": "1.43%",
+                "min": "1.43%",
+                "max": "1.43%",
+                "count": 1,
+                "mutual_funds": [
+                    {
+                        "name": "tata-corporate-bond-fund-direct-growth",
+                        "asset": "1.43%"
+                    }
+                ]
+            },
+            "Power Finance Corporation Ltd.": {
+                "average": "4.09%",
+                "min": "4.09%",
+                "max": "4.09%",
+                "count": 1,
+                "mutual_funds": [
+                    {
+                        "name": "franklin-india-iba-direct-growth",
+                        "asset": "4.09%"
+                    }
+                ]
+            }
+        }
+    },
+    "Healthcare": {
+        "stocks": {
+            "National Housing Bank": {
+                "average": "5.0%",
+                "min": "5.0%",
+                "max": "5.0%",
+                "count": 1,
+                "mutual_funds": [
+                    {
+                        "name": "union-corporate-bond-fund-direct-growth",
+                        "asset": "5.0%"
+                    }
+                ]
+            }
+        }
+    }
+}

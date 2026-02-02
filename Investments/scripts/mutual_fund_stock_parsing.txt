@@ -1,0 +1,107 @@
+import json 
+from datetime import datetime
+search_ids = ["hdfc-medium-term-opportunities-fund-direct-growth",
+ "icici-prudential-corporate-bond-fund-direct-plan-growth",
+ "birla-sun-life-short-term-fund-direct-growth",
+ "sbi-corporate-bond-fund-direct-growth",
+ "kotak-corporate-bond-fund-direct-growth",
+ "idfc-corporate-bond-fund-direct-growth",
+ "nippon-india-corporate-bond-fund-direct-growth",
+ "axis-corporate-bond-fund-direct-growth",
+ "invesco-india-active-i-come-fund-direct-growth",
+ "hsbc-corporate-bond-direct-growth",
+ "uti-corporate-bond-fund-direct-growth",
+ "tata-corporate-bond-fund-direct-growth",
+ "franklin-india-iba-direct-growth",
+ "sundaram-flexible-fund-flexible-i-come-direct-growth",
+ "union-corporate-bond-fund-direct-growth",
+ "baroda-bnp-paribas-corporate-bond-fund-direct-growth",
+ "canara-robeco-medium-term-opportunities-fund-direct-growth",
+ "pgim-india-corporate-bond-direct-plan-growth",
+ "mirae-asset-corporate-bond-fund-direct-growth",
+ "dsp-corporate-bond-fund-direct-growth",
+ "trustmf-corporate-bond-fund-direct-growth"]
+
+
+
+result = []
+for search_id in search_ids:
+  fetch(f'https://groww.in/mutual-funds/{search_id}')
+
+  stock = response.xpath("/html/body/div[1]/div[2]/div[2]/div/div[1]/div/div/div[1]/div[1]/section[2]/div/table/tbody/tr/td/a/span/text()").getall()
+
+  sector = response.xpath("/html/body/div[1]/div[2]/div[2]/div/div[1]/div/div/div[1]/div[1]/section[2]/div/table/tbody/tr/td[2]/text()").getall()
+
+  instruments = response.xpath("/html/body/div[1]/div[2]/div[2]/div/div[1]/div/div/div[1]/div[1]/section[2]/div/table/tbody/tr/td[3]/text()").getall()
+
+  assets = response.xpath("/html/body/div[1]/div[2]/div[2]/div/div[1]/div/div/div[1]/div[1]/section[2]/div/table/tbody/tr/td[4]/text()").getall()
+
+  for i in range(len(stock)):
+     result.append({"stock": stock[i], "sector": sector[i], "instruments": instruments[i], "assets": assets[i], "mutual fund": search_id})
+
+with open("%s_corporate_bonds_mutualfund_invested_companies.json" % (datetime.now().strftime('%d_%m_%Y')), "w") as outfile: 
+    json.dump(result, outfile)
+
+
+ruby
+----------------
+def asset_value(record)
+  record["assets"].to_s.strip.delete("%,").to_f
+end
+
+#Read File
+file = File.read('31_01_2026_corporate_bonds_mutualfund_invested_companies.json')
+require 'json'
+data = JSON.parse(file)
+grouped = data
+  .group_by { |i| i["sector"] }
+  .transform_values do |items|
+    items
+      .group_by { |i| i["stock"] }
+      .transform_values do |records|
+        records.sort_by { |r| -asset_value(r) }
+      end
+  end
+
+result = data
+  .group_by { |i| i["sector"] }
+  .transform_values do |sector_records|
+    stocks = sector_records
+      .group_by { |r| r["stock"] }
+      .transform_values do |stock_records|
+        values = stock_records.map { |r| asset_value(r) }
+
+        avg = (values.sum / values.size.to_f).round(2)
+        min = values.min
+        max = values.max
+
+        {
+          average: "#{avg}%",
+          min: "#{min}%",
+          max: "#{max}%",
+          count: values.size,
+          mutual_funds: stock_records.map do |r|
+            {
+              name: r["mutual fund"],
+              asset: "#{asset_value(r)}%"
+            }
+          end
+        }
+      end
+
+    {
+      stocks: stocks
+        .sort_by { |_, v| -v[:count] }
+        .to_h
+    }
+  end
+
+
+#-----------------------------------------------------------------------------
+File.open("midcap_stocks_by_mutual_funds.json", "w") do |file|
+  file.write(grouped.to_json)
+end
+
+File.open("midcap_stocks_by_mutual_funds_avg_coung.json", "w") do |file|
+  file.write(result.to_json)
+end

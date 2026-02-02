@@ -1,0 +1,210 @@
+import time
+from datetime import datetime
+
+company_name = []
+company_link = []
+for i in range(1,203):
+   fetch('https://www.screener.in/screens/357649/all-listed-companies/?page='+str(i))
+   current_company_name = response.xpath("//td/a/text()").getall()
+   current_company_link = response.xpath("//td/a/@href").getall()
+   company_name.extend(current_company_name)
+   company_link.extend(current_company_link)
+   time.sleep(3)
+	
+
+company_link = list(map(lambda a : "https://www.screener.in/"+a,company_link))
+res_dict = {}
+for i in range(0,len(company_link)):
+   res_dict[company_name[i]] = company_link[i]
+
+
+import json 
+# Convert and write JSON object to file
+with open("%s_listed_companies_with_screener_link.json" % (datetime.now().strftime('%d_%m_%Y')), "w") as outfile: 
+    json.dump(res_dict, outfile)
+
+--------------------------------------------------------------
+
+
+
+
+import json
+import time
+
+# Opening JSON file
+with open('25_07_2025_listed_companies_with_screener_link.json') as json_file:
+    data = json.load(json_file)
+
+keys = list(data.keys())
+values = list(data.values())
+
+i = 0
+res_list = []
+for name in keys:
+    link = values[i]
+    try: 
+        fetch(link)
+
+        company_name = response.xpath("/html/body/main/div[3]/div[1]/div/h1/text()").get().strip()
+        company_link = response.xpath("/html/body/main/div[3]/div[2]/a[1]/@href").get().strip()
+        sector = response.xpath("/html/body/main/section[3]/div[1]/div[1]/p/a[1]/text()").get().strip()
+        subsector = response.xpath("/html/body/main/section[3]/div[1]/div[1]/p/a[2]/text()").get().strip()
+        industry = response.xpath("/html/body/main/section[3]/div[1]/div[1]/p/a[3]/text()").get().strip()
+        segment = response.xpath("/html/body/main/section[3]/div[1]/div[1]/p/a[4]/text()").get().strip()
+        business_line_link = f"https://www.thehindubusinessline.com/stocks/{company_name.lower().replace(' ', '-')}"
+        google_link = f"https://www.google.com/search?q={company_name.replace(' ', '%20')}"      
+          
+        res_list.append({
+            'company_name': company_name,
+            'company_link': company_link,
+            'business_line_link': business_line_link,
+            'google_link': google_link,
+            'name': name,
+            'link': link,
+            'sector': sector,
+            'subsector': subsector,
+            'industry': industry,
+            'segment': segment
+        })
+
+        i += 1
+        time.sleep(3)
+    except:
+        res_list.append({
+            'company_name': '',
+            'company_link': '',
+            'google_link': '',
+            'business_line_link': '',
+            'name': name,
+            'link': link,
+            'sector': '',
+            'subsector': '',
+            'industry':'',
+            'segment': ''
+        })
+        i += 1
+        time.sleep(3)
+        continue
+
+with open("25_07_2025_listed_companies_with_google_screener_link.json", "w") as final:
+    json.dump(res_list, final)
+
+
+
+
+
+--------------------------------------------------------------------
+
+require 'json'
+data_hash = JSON.parse(File.read('21_07_2025_listed_companies_with_google_screener_link.json'))
+industry_wise_grouping = data_hash.group_by{|arr| arr['sector']}
+json_string = industry_wise_grouping.to_json
+File.open("21_07_2025_listed_companies_with_screener_link_sector_by_sector.json", "w") do |file|
+  file.write(json_string)
+end
+
+
+----------------------------------------------------------------------
+
+require 'json'
+data_hash = JSON.parse(File.read('21_07_2025_listed_companies_with_google_screener_link.json'))
+industry_wise_grouping = data_hash.group_by{|arr| arr['industry']}
+json_string = industry_wise_grouping.to_json
+File.open("21_07_2025_listed_companies_with_screener_link_sector_by_industry.json", "w") do |file|
+  file.write(json_string)
+end
+
+
+-----------------------------------------------------------------------------------
+require 'json'
+data_hash = JSON.parse(File.read('22_07_2025_listed_companies_with_google_screener_link.json'))
+
+grouped_data = data_hash.group_by { |company| company['sector'] }
+
+grouped_data.each do |sector, companies_in_sector|
+  grouped_data[sector] = companies_in_sector.group_by { |company| company['subsector'] }
+
+  grouped_data[sector].each do |subsector, companies_in_subsector|
+    grouped_data[sector][subsector] = companies_in_subsector.group_by { |company| company['industry'] }
+
+    grouped_data[sector][subsector].each do |industry, companies_in_industry|
+      grouped_data[sector][subsector][industry] = companies_in_industry.group_by { |company| company['segment'] }
+    end
+  end
+end
+
+
+File.open("22_07_2025_listed_companies_with_screener_link_grouped_by_sector_and_with_in_industry.json", "w") do |file|
+  file.write(grouped_data.to_json)
+end
+
+-----------------------------------------------------------------------------
+
+(?<=google_link":\s?"https:\/\/www\.google\.com\/search\?q=[^"]*)\s
+
+-------------------------------------------------------------------------------------
+
+grouped_data = data_hash.group_by { |item| item["zone"] }
+                    .transform_values do |state_data|
+  state_data.group_by { |item| item["state"] }
+             .transform_values do |location_data|
+    location_data.group_by { |item| item["location"] }
+                 .transform_values { |institutions| institutions.map { |i| i["name"] } }
+  end
+end
+
+
+File.open("29_01_2025_top-B-schools-in-india_grouped.json", "w") do |file|
+  file.write(grouped_data.to_json)
+end
+
+
+--------------------------------------------------------------------------------------------------
+
+
+import json 
+from datetime import datetime
+
+search_ids = ["icici-prudential-value-direct-growth",
+ "sbi-contra-fund-direct-growth",
+ "invesco-india-contra-fund-direct-growth",
+ "hsbc-value-fund-direct-growth",
+ "bandhan-value-fund-direct-growth",
+ "uti-value-fund-direct-growth",
+ "nippon-india-value-fund-direct-growth",
+ "tata-value-fund-direct-growth",
+ "hdfc-value-fund-direct-plan-growth",
+ "aditya-birla-sun-life-value-direct-fund-growth",
+ "kotak-contra-fund-direct-growth",
+ "templeton-india-growth-fund-direct-growth",
+ "quant-value-fund-direct-growth",
+ "sundaram-value-fund-direct-growth",
+ "canara-robeco-value-fund-direct-growth",
+ "quantum-value-fund-direct-growth",
+ "dsp-value-fund-direct-growth",
+ "baroda-bnp-paribas-value-fund-direct-growth",
+ "baroda-bnp-paribas-value-fund-direct-growth",
+ "motilal-oswal-bse-enhanced-value-index-fund-direct-growth",
+ "axis-value-fund-direct-growth",
+ "nippon-india-nifty-50-value-20-index-fund-direct-growth",
+ "jm-basic-fund-direct-growth",
+ "mahindra-manulife-value-fund-direct-growth",
+ "uti-nifty-500-value-50-index-fund-direct-growth",
+ "union-value-fund-direct-growth",
+ "iti-value-fund-direct-growth",
+ "lic-mf-value-fund-direct-growth",
+ "icici-prudential-nifty50-value-20-index-fund-direct-growth",
+ "axis-nifty500-value-50-index-fund-directgrowth",
+ "axis-nifty500-value-50-index-fund-directgrowth",
+ "groww-value-fund-direct-growth"]
+
+result = []
+for search_id in search_ids:
+  fetch(f'https://groww.in/mutual-funds/{search_id}')
+  arr = response.xpath("/html/body/div[1]/div[2]/div[2]/div/div[1]/div/div/div[1]/div[1]/section[2]/div/table/tbody/tr/td/a/span/text()").getall()
+  result.extend(arr)
+
+result = list(set(result))
+
+with open("%s_value_oriented_mutualfund_invested_companies.json" % (datetime.now().strftime('%d_%m_%Y')), "w") as outfile: 
+    json.dump(result, outfile)
