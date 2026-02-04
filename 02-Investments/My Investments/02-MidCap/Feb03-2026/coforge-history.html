@@ -1,0 +1,862 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coforge Ltd - Journey of Innovation</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #f5f7fa 0%, #e8ecf1 100%);
+            color: #2c3e50;
+            line-height: 1.8;
+            overflow-x: hidden;
+        }
+
+        .header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 4rem 2rem;
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .header::before {
+            content: '';
+            position: absolute;
+            top: -50%;
+            left: -50%;
+            width: 200%;
+            height: 200%;
+            background: radial-gradient(circle, rgba(255,255,255,0.1) 1px, transparent 1px);
+            background-size: 50px 50px;
+            animation: moveBackground 20s linear infinite;
+        }
+
+        @keyframes moveBackground {
+            0% { transform: translate(0, 0); }
+            100% { transform: translate(50px, 50px); }
+        }
+
+        .header h1 {
+            font-size: 3.5rem;
+            margin-bottom: 1rem;
+            position: relative;
+            z-index: 1;
+            animation: fadeInDown 1s ease-out;
+        }
+
+        .header .tagline {
+            font-size: 1.3rem;
+            opacity: 0.95;
+            position: relative;
+            z-index: 1;
+            animation: fadeInUp 1s ease-out 0.3s both;
+        }
+
+        @keyframes fadeInDown {
+            from {
+                opacity: 0;
+                transform: translateY(-30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 3rem 2rem;
+        }
+
+        .intro-card {
+            background: white;
+            border-radius: 20px;
+            padding: 3rem;
+            margin-bottom: 3rem;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.1);
+            animation: slideIn 0.8s ease-out;
+            border-left: 6px solid #667eea;
+        }
+
+        @keyframes slideIn {
+            from {
+                opacity: 0;
+                transform: translateX(-50px);
+            }
+            to {
+                opacity: 1;
+                transform: translateX(0);
+            }
+        }
+
+        .intro-card h2 {
+            color: #667eea;
+            font-size: 2.2rem;
+            margin-bottom: 1.5rem;
+        }
+
+        .intro-card p {
+            font-size: 1.1rem;
+            color: #555;
+            margin-bottom: 1rem;
+        }
+
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 2rem;
+            margin: 3rem 0;
+        }
+
+        .stat-card {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 2.5rem 2rem;
+            border-radius: 15px;
+            text-align: center;
+            box-shadow: 0 8px 30px rgba(102, 126, 234, 0.3);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            animation: popIn 0.6s ease-out backwards;
+        }
+
+        .stat-card:nth-child(1) { animation-delay: 0.1s; }
+        .stat-card:nth-child(2) { animation-delay: 0.2s; }
+        .stat-card:nth-child(3) { animation-delay: 0.3s; }
+
+        @keyframes popIn {
+            from {
+                opacity: 0;
+                transform: scale(0.8);
+            }
+            to {
+                opacity: 1;
+                transform: scale(1);
+            }
+        }
+
+        .stat-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 15px 40px rgba(102, 126, 234, 0.4);
+        }
+
+        .stat-card .number {
+            font-size: 3rem;
+            font-weight: bold;
+            margin-bottom: 0.5rem;
+            display: block;
+        }
+
+        .stat-card .label {
+            font-size: 1.1rem;
+            opacity: 0.95;
+        }
+
+        .timeline {
+            position: relative;
+            padding: 2rem 0;
+        }
+
+        .timeline::before {
+            content: '';
+            position: absolute;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 4px;
+            height: 100%;
+            background: linear-gradient(180deg, #667eea 0%, #764ba2 100%);
+            border-radius: 2px;
+        }
+
+        .timeline-item {
+            margin-bottom: 3rem;
+            position: relative;
+            animation: fadeInTimeline 0.8s ease-out backwards;
+        }
+
+        .timeline-item:nth-child(odd) { animation-delay: 0.2s; }
+        .timeline-item:nth-child(even) { animation-delay: 0.4s; }
+
+        @keyframes fadeInTimeline {
+            from {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .timeline-item:nth-child(odd) .timeline-content {
+            margin-right: 52%;
+        }
+
+        .timeline-item:nth-child(even) .timeline-content {
+            margin-left: 52%;
+        }
+
+        .timeline-content {
+            background: white;
+            padding: 2rem;
+            border-radius: 15px;
+            box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+            position: relative;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .timeline-content:hover {
+            transform: scale(1.02);
+            box-shadow: 0 8px 30px rgba(0,0,0,0.15);
+        }
+
+        .timeline-year {
+            display: inline-block;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 0.5rem 1.5rem;
+            border-radius: 25px;
+            font-weight: bold;
+            font-size: 1.1rem;
+            margin-bottom: 1rem;
+            box-shadow: 0 4px 15px rgba(102, 126, 234, 0.3);
+        }
+
+        .timeline-dot {
+            position: absolute;
+            left: 50%;
+            top: 0;
+            transform: translateX(-50%);
+            width: 20px;
+            height: 20px;
+            background: white;
+            border: 4px solid #667eea;
+            border-radius: 50%;
+            z-index: 1;
+            animation: pulse 2s ease-in-out infinite;
+        }
+
+        @keyframes pulse {
+            0%, 100% {
+                box-shadow: 0 0 0 0 rgba(102, 126, 234, 0.7);
+            }
+            50% {
+                box-shadow: 0 0 0 10px rgba(102, 126, 234, 0);
+            }
+        }
+
+        .timeline-content h3 {
+            color: #667eea;
+            font-size: 1.5rem;
+            margin-bottom: 1rem;
+        }
+
+        .timeline-content p {
+            color: #555;
+            font-size: 1.05rem;
+        }
+
+        .highlight {
+            background: linear-gradient(120deg, #ffeaa7 0%, #fdcb6e 100%);
+            padding: 0.2rem 0.5rem;
+            border-radius: 5px;
+            font-weight: 600;
+            color: #2c3e50;
+        }
+
+        .services-section {
+            background: white;
+            border-radius: 20px;
+            padding: 3rem;
+            margin: 3rem 0;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.1);
+        }
+
+        .services-section h2 {
+            color: #667eea;
+            font-size: 2.2rem;
+            margin-bottom: 2rem;
+            text-align: center;
+        }
+
+        .services-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 2rem;
+        }
+
+        .service-card {
+            background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+            padding: 2rem;
+            border-radius: 15px;
+            border-left: 4px solid #667eea;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            animation: slideInService 0.6s ease-out backwards;
+        }
+
+        .service-card:nth-child(1) { animation-delay: 0.1s; }
+        .service-card:nth-child(2) { animation-delay: 0.2s; }
+        .service-card:nth-child(3) { animation-delay: 0.3s; }
+        .service-card:nth-child(4) { animation-delay: 0.4s; }
+
+        @keyframes slideInService {
+            from {
+                opacity: 0;
+                transform: translateX(-30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateX(0);
+            }
+        }
+
+        .service-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 30px rgba(0,0,0,0.15);
+        }
+
+        .service-card h3 {
+            color: #667eea;
+            font-size: 1.3rem;
+            margin-bottom: 0.8rem;
+        }
+
+        .service-card p {
+            color: #666;
+            font-size: 1rem;
+        }
+
+        .footer {
+            background: linear-gradient(135deg, #2c3e50 0%, #34495e 100%);
+            color: white;
+            text-align: center;
+            padding: 2rem;
+            margin-top: 3rem;
+        }
+
+        .scroll-indicator {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 0%;
+            height: 4px;
+            background: linear-gradient(90deg, #667eea 0%, #764ba2 100%);
+            z-index: 1000;
+            transition: width 0.1s ease;
+        }
+
+        @media (max-width: 768px) {
+            .header h1 {
+                font-size: 2.5rem;
+            }
+
+            .timeline::before {
+                left: 20px;
+            }
+
+            .timeline-item:nth-child(odd) .timeline-content,
+            .timeline-item:nth-child(even) .timeline-content {
+                margin-left: 60px;
+                margin-right: 0;
+            }
+
+            .timeline-dot {
+                left: 20px;
+            }
+
+            .container {
+                padding: 2rem 1rem;
+            }
+        }
+
+        .achievement-badge {
+            display: inline-block;
+            background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+            color: white;
+            padding: 0.4rem 1rem;
+            border-radius: 20px;
+            font-size: 0.9rem;
+            margin: 0.3rem;
+            font-weight: 600;
+            box-shadow: 0 3px 10px rgba(245, 87, 108, 0.3);
+        }
+    </style>
+</head>
+<body>
+    <div class="scroll-indicator" id="scrollIndicator"></div>
+
+    <div class="header">
+        <h1>🚀 Coforge Limited</h1>
+        <p class="tagline">Transforming Businesses into Intelligent, High-Growth Enterprises</p>
+    </div>
+
+    <div class="container">
+        <div class="intro-card">
+            <h2>About Coforge</h2>
+            <p><strong>Formerly known as:</strong> NIIT Technologies Limited (1992-2020)</p>
+            <p><strong>Name Change:</strong> August 3, 2020 - Rebranded to Coforge Limited</p>
+            <p>Coforge is a <span class="highlight">global digital services and business solutions provider</span> with deep domain expertise in selected industry verticals. The company delivers cutting-edge services through its network of subsidiaries and overseas branches, leveraging Cloud, Data, Integration, and Automation technologies.</p>
+        </div>
+
+        <div class="stats-grid">
+            <div class="stat-card">
+                <span class="number">21</span>
+                <span class="label">Countries</span>
+            </div>
+            <div class="stat-card">
+                <span class="number">26</span>
+                <span class="label">Delivery Centers</span>
+            </div>
+            <div class="stat-card">
+                <span class="number">61+</span>
+                <span class="label">Forbes Global 1000 Clients</span>
+            </div>
+            <div class="stat-card">
+                <span class="number">$1.9B</span>
+                <span class="label">Order Book (FY24)</span>
+            </div>
+        </div>
+
+        <div class="intro-card">
+            <h2>🏢 Business Profile</h2>
+            <p>Coforge is an IT services company providing <span class="highlight">end-to-end software solutions and services</span>, ranking among the <strong>top-20 Indian software exporters</strong>.</p>
+            <p><strong>Founded:</strong> April 2003 (as NIIT Technologies Ltd.)</p>
+            <p><strong>Key Milestone:</strong> In 2019, NIIT and its founder's family sold their 30.2% stake to Hulst B.V., which subsequently acquired an additional ~40% through an open offer, reaching a 70% stake. Hulst sold off its entire stake by September 30, 2023.</p>
+        </div>
+
+        <div class="intro-card" style="background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);">
+            <h2>🌟 Prominent Global Clients</h2>
+            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1rem; margin-top: 1.5rem;">
+                <div style="text-align: center; padding: 1rem;">
+                    <div style="font-size: 2rem;">✈️</div>
+                    <strong>British Airways</strong>
+                </div>
+                <div style="text-align: center; padding: 1rem;">
+                    <div style="font-size: 2rem;">🏦</div>
+                    <strong>ING Group</strong>
+                </div>
+                <div style="text-align: center; padding: 1rem;">
+                    <div style="font-size: 2rem;">💼</div>
+                    <strong>SEI Investments</strong>
+                </div>
+                <div style="text-align: center; padding: 1rem;">
+                    <div style="font-size: 2rem;">🌐</div>
+                    <strong>Sabre</strong>
+                </div>
+                <div style="text-align: center; padding: 1rem;">
+                    <div style="font-size: 2rem;">📡</div>
+                    <strong>SITA</strong>
+                </div>
+            </div>
+            <p style="margin-top: 1.5rem; text-align: center;"><strong>Client Concentration:</strong> Top 5 clients contribute ~23% | Top 10 clients contribute ~34% of aggregate revenue (FY24)</p>
+        </div>
+
+        <div class="services-section" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white;">
+            <h2 style="color: white;">📊 Revenue Distribution (FY24)</h2>
+            
+            <div style="margin-bottom: 3rem;">
+                <h3 style="color: #ffeaa7; margin-bottom: 1.5rem;">By Geography</h3>
+                <div class="services-grid">
+                    <div class="service-card" style="background: rgba(255,255,255,0.95); color: #2c3e50;">
+                        <h3 style="color: #667eea;">🇺🇸 United States</h3>
+                        <p style="font-size: 2rem; font-weight: bold; color: #667eea; margin: 0.5rem 0;">48%</p>
+                        <p style="color: #666; font-size: 0.9rem;">FY22: ~52%</p>
+                    </div>
+                    <div class="service-card" style="background: rgba(255,255,255,0.95); color: #2c3e50;">
+                        <h3 style="color: #667eea;">🇪🇺 EMEA & Africa</h3>
+                        <p style="font-size: 2rem; font-weight: bold; color: #667eea; margin: 0.5rem 0;">~40%</p>
+                        <p style="color: #666; font-size: 0.9rem;">FY22: ~36%</p>
+                    </div>
+                    <div class="service-card" style="background: rgba(255,255,255,0.95); color: #2c3e50;">
+                        <h3 style="color: #667eea;">🌏 Asia Pacific</h3>
+                        <p style="font-size: 2rem; font-weight: bold; color: #667eea; margin: 0.5rem 0;">~7%</p>
+                        <p style="color: #666; font-size: 0.9rem;">FY22: 8%</p>
+                    </div>
+                    <div class="service-card" style="background: rgba(255,255,255,0.95); color: #2c3e50;">
+                        <h3 style="color: #667eea;">🇮🇳 India</h3>
+                        <p style="font-size: 2rem; font-weight: bold; color: #667eea; margin: 0.5rem 0;">5%</p>
+                        <p style="color: #666; font-size: 0.9rem;">FY22: 4%</p>
+                    </div>
+                </div>
+            </div>
+
+            <div style="margin-bottom: 3rem;">
+                <h3 style="color: #ffeaa7; margin-bottom: 1.5rem;">By Vertical</h3>
+                <div class="services-grid">
+                    <div class="service-card" style="background: rgba(255,255,255,0.95); color: #2c3e50;">
+                        <h3 style="color: #667eea;">🏦 BFS</h3>
+                        <p style="font-size: 2rem; font-weight: bold; color: #667eea; margin: 0.5rem 0;">32%</p>
+                        <p style="color: #666; font-size: 0.9rem;">FY22: 26%</p>
+                    </div>
+                    <div class="service-card" style="background: rgba(255,255,255,0.95); color: #2c3e50;">
+                        <h3 style="color: #667eea;">🛡️ Insurance</h3>
+                        <p style="font-size: 2rem; font-weight: bold; color: #667eea; margin: 0.5rem 0;">22%</p>
+                        <p style="color: #666; font-size: 0.9rem;">FY22: 28%</p>
+                    </div>
+                    <div class="service-card" style="background: rgba(255,255,255,0.95); color: #2c3e50;">
+                        <h3 style="color: #667eea;">✈️ Travel & Transport</h3>
+                        <p style="font-size: 2rem; font-weight: bold; color: #667eea; margin: 0.5rem 0;">18%</p>
+                        <p style="color: #666; font-size: 0.9rem;">FY22: 19%</p>
+                    </div>
+                    <div class="service-card" style="background: rgba(255,255,255,0.95); color: #2c3e50;">
+                        <h3 style="color: #667eea;">🏭 Manufacturing & Others</h3>
+                        <p style="font-size: 2rem; font-weight: bold; color: #667eea; margin: 0.5rem 0;">~28%</p>
+                        <p style="color: #666; font-size: 0.9rem;">FY22: 27%</p>
+                    </div>
+                </div>
+            </div>
+
+            <div>
+                <h3 style="color: #ffeaa7; margin-bottom: 1.5rem;">By Service Mix</h3>
+                <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1.5rem;">
+                    <div style="background: rgba(255,255,255,0.95); padding: 1.5rem; border-radius: 10px; text-align: center;">
+                        <p style="color: #667eea; font-weight: bold; margin-bottom: 0.5rem;">ADM (Software Engineering)</p>
+                        <p style="font-size: 1.8rem; font-weight: bold; color: #2c3e50; margin: 0;">~27%</p>
+                        <p style="color: #666; font-size: 0.85rem;">FY22: 25%</p>
+                    </div>
+                    <div style="background: rgba(255,255,255,0.95); padding: 1.5rem; border-radius: 10px; text-align: center;">
+                        <p style="color: #667eea; font-weight: bold; margin-bottom: 0.5rem;">Data & Integration</p>
+                        <p style="font-size: 1.8rem; font-weight: bold; color: #2c3e50; margin: 0;">~25%</p>
+                        <p style="color: #666; font-size: 0.85rem;">FY22: 21%</p>
+                    </div>
+                    <div style="background: rgba(255,255,255,0.95); padding: 1.5rem; border-radius: 10px; text-align: center;">
+                        <p style="color: #667eea; font-weight: bold; margin-bottom: 0.5rem;">CIMS</p>
+                        <p style="font-size: 1.8rem; font-weight: bold; color: #2c3e50; margin: 0;">19%</p>
+                        <p style="color: #666; font-size: 0.85rem;">FY22: 18%</p>
+                    </div>
+                    <div style="background: rgba(255,255,255,0.95); padding: 1.5rem; border-radius: 10px; text-align: center;">
+                        <p style="color: #667eea; font-weight: bold; margin-bottom: 0.5rem;">Intelligent Automation</p>
+                        <p style="font-size: 1.8rem; font-weight: bold; color: #2c3e50; margin: 0;">11%</p>
+                        <p style="color: #666; font-size: 0.85rem;">FY22: 14%</p>
+                    </div>
+                    <div style="background: rgba(255,255,255,0.95); padding: 1.5rem; border-radius: 10px; text-align: center;">
+                        <p style="color: #667eea; font-weight: bold; margin-bottom: 0.5rem;">Product Engineering</p>
+                        <p style="font-size: 1.8rem; font-weight: bold; color: #2c3e50; margin: 0;">~9%</p>
+                        <p style="color: #666; font-size: 0.85rem;">FY22: 12%</p>
+                    </div>
+                    <div style="background: rgba(255,255,255,0.95); padding: 1.5rem; border-radius: 10px; text-align: center;">
+                        <p style="color: #667eea; font-weight: bold; margin-bottom: 0.5rem;">BPM</p>
+                        <p style="font-size: 1.8rem; font-weight: bold; color: #2c3e50; margin: 0;">9%</p>
+                        <p style="color: #666; font-size: 0.85rem;">FY22: 11%</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="services-section">
+            <h2>🎯 Products & Services Portfolio</h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <h3>🔧 Product Engineering</h3>
+                    <p>End-to-end product development and engineering solutions</p>
+                </div>
+                <div class="service-card">
+                    <h3>💡 Digital Solutions</h3>
+                    <p>Comprehensive digital transformation services</p>
+                </div>
+                <div class="service-card">
+                    <h3>📊 Data Analytics</h3>
+                    <p>Advanced analytics and business intelligence</p>
+                </div>
+                <div class="service-card">
+                    <h3>🤖 AI/ML</h3>
+                    <p>Artificial Intelligence and Machine Learning solutions</p>
+                </div>
+                <div class="service-card">
+                    <h3>☁️ Cloud Services</h3>
+                    <p>Cloud migration, optimization, and management</p>
+                </div>
+                <div class="service-card">
+                    <h3>🔄 Business Process Re-engineering</h3>
+                    <p>Process optimization and transformation</p>
+                </div>
+                <div class="service-card">
+                    <h3>⚡ Digital Process Automation</h3>
+                    <p>Automated workflows and process efficiency</p>
+                </div>
+                <div class="service-card">
+                    <h3>🚀 Low Code/No Code Platforms</h3>
+                    <p>Rapid application development solutions</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="services-section">
+            <h2>Core Services</h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <h3>💻 Application Development</h3>
+                    <p>Comprehensive development and maintenance solutions for modern enterprises</p>
+                </div>
+                <div class="service-card">
+                    <h3>☁️ Cloud Computing</h3>
+                    <p>Cloud transformation and managed services for scalable business growth</p>
+                </div>
+                <div class="service-card">
+                    <h3>🔄 Business Process Outsourcing</h3>
+                    <p>Streamlined BPO solutions across various industry sectors</p>
+                </div>
+                <div class="service-card">
+                    <h3>🎯 Managed Services</h3>
+                    <p>End-to-end managed IT services for operational excellence</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="intro-card" style="background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%); color: white;">
+            <h2 style="color: white;">🤝 Strategic Partnerships</h2>
+            <p style="color: white; opacity: 0.95;">Coforge has established a robust partnership network with leading software providers:</p>
+            <div style="display: flex; flex-wrap: wrap; gap: 1rem; margin-top: 1.5rem; justify-content: center;">
+                <span class="achievement-badge" style="background: white; color: #667eea; font-size: 1rem;">Microsoft</span>
+                <span class="achievement-badge" style="background: white; color: #667eea; font-size: 1rem;">AWS</span>
+                <span class="achievement-badge" style="background: white; color: #667eea; font-size: 1rem;">Google</span>
+                <span class="achievement-badge" style="background: white; color: #667eea; font-size: 1rem;">Pegasystems</span>
+                <span class="achievement-badge" style="background: white; color: #667eea; font-size: 1rem;">Appian</span>
+                <span class="achievement-badge" style="background: white; color: #667eea; font-size: 1rem;">Salesforce</span>
+                <span class="achievement-badge" style="background: white; color: #667eea; font-size: 1rem;">ServiceNow</span>
+                <span class="achievement-badge" style="background: white; color: #667eea; font-size: 1rem;">Duck Creek</span>
+            </div>
+            <div style="margin-top: 2rem;">
+                <p style="color: white; opacity: 0.95;"><strong>Recent Partnerships (2024):</strong></p>
+                <p style="color: white; opacity: 0.9;">• <strong>Fiorano</strong> - ISO 20022 Compliance as a Service (May 2024)</p>
+                <p style="color: white; opacity: 0.9;">• <strong>Carnival UK</strong> - Multi-year precision quality engineering & testing (March 2024)</p>
+            </div>
+        </div>
+
+
+
+        <h2 style="text-align: center; color: #667eea; font-size: 2.5rem; margin: 3rem 0 2rem;">Journey Through Time</h2>
+
+        <div class="timeline">
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                    <span class="timeline-year">1992</span>
+                    <h3>🏢 Foundation</h3>
+                    <p>NIIT Technologies Limited incorporated as a Public Limited Company on <strong>May 13, 1992</strong></p>
+                </div>
+            </div>
+
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                    <span class="timeline-year">2002-2004</span>
+                    <h3>📊 Milestone Achievement</h3>
+                    <p>Software division revenues surpassed education division for the first time. Restructuring led to the creation of NIIT Technologies as a separate entity in <strong>June 2004</strong></p>
+                    <p><span class="achievement-badge">ISO 9001:2000 Certified</span></p>
+                </div>
+            </div>
+
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                    <span class="timeline-year">2006</span>
+                    <h3>🌟 Strategic Expansion</h3>
+                    <p>Formal entry into <span class="highlight">Managed Services</span>. Joint venture 'ADECCO NIIT Technologies' incorporated. Acquired <strong>ROOM Solutions</strong>, a leading UK insurance market player</p>
+                </div>
+            </div>
+
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                    <span class="timeline-year">2007-2008</span>
+                    <h3>🏆 Recognition & Innovation</h3>
+                    <p>Ranked in <strong>ET 500 Top 20 Wealth Creators</strong>. Won Banking & Finance ICT Innovation Award. Completed Indian Navy's CMMS project. <strong>#1 in Black Book of Outsourcing 2008</strong> Travel Industry survey</p>
+                    <p><span class="achievement-badge">Fleet Management System Launched</span></p>
+                </div>
+            </div>
+
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                    <span class="timeline-year">2014</span>
+                    <h3>💼 Major Contracts</h3>
+                    <p>Added <strong>16 new clients</strong> including:</p>
+                    <p>• <span class="highlight">$300M BFSI deal</span><br>
+                    • ₹3,440M contract with Airports Authority of India for AOCCs across 10 cities<br>
+                    • Expanded to <strong>Latin America</strong> and <strong>Ireland</strong></p>
+                </div>
+            </div>
+
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                    <span class="timeline-year">2015</span>
+                    <h3>🚀 Digital Transformation</h3>
+                    <p>Acquired 51% stake in <strong>Incessant Technologies</strong> for Digital Integration. Launched <span class="highlight">+ADVANTAGE suite</span> for Commercial Insurance. Successful Airport Operations Control Centre implementation for AAI</p>
+                </div>
+            </div>
+
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                    <span class="timeline-year">2016</span>
+                    <h3>🤖 Automation Era</h3>
+                    <p>Expanded Digital Foresight platform. Partnership with <strong>UiPath</strong> for Robotic Process Automation (RPA)</p>
+                </div>
+            </div>
+
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                    <span class="timeline-year">2018-2019</span>
+                    <h3>📈 Strategic Acquisitions</h3>
+                    <p>Acquired controlling interest in <strong>RuleTek</strong> (BPM architecture). Acquired majority stake in <strong>WHISHWORKS IT Consulting</strong> (MuleSoft & Big Data). Opened Princeton, NJ location</p>
+                </div>
+            </div>
+
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                    <span class="timeline-year">2020</span>
+                    <h3>🎯 Rebranding</h3>
+                    <p>Official name change from NIIT Technologies to <span class="highlight">Coforge Limited</span> on <strong>August 3, 2020</strong></p>
+                </div>
+            </div>
+
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                    <span class="timeline-year">2021</span>
+                    <h3>🌐 Major Acquisition</h3>
+                    <p>Acquired <strong>SLK Global Solutions Private Limited</strong> on April 12, 2021</p>
+                </div>
+            </div>
+
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                    <span class="timeline-year">2023</span>
+                    <h3>🌏 Global Expansion</h3>
+                    <p>Incorporated new subsidiaries: <strong>Coforge Solution Pvt. Ltd.</strong> (India) and <strong>Coforge Japan GK</strong> (Japan). Launched ELEVATE leadership program</p>
+                </div>
+            </div>
+
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                    <span class="timeline-year">2024</span>
+                    <h3>🎊 Record-Breaking Year</h3>
+                    <p><strong>Q1 FY24:</strong> <span class="highlight">$300M TCV deal</span> (5-year BFS contract)<br>
+                    <strong>Q4 FY24:</strong> Two transformative deals signed:</p>
+                    <p>• <strong>$400M largest-ever deal</strong> (10-year BFS contract with existing client)<br>
+                    • <strong>$55M transformation deal</strong> (3-year Insurance vertical contract with new client)</p>
+                    <p><strong>May 2024:</strong> Signed definitive SPA to acquire <span class="highlight">54% stake in Cigniti Technologies</span> for ₹2,000 Cr. This strategic acquisition aims to:</p>
+                    <p>→ Grow Coforge into a <strong>$2B firm by FY27</strong><br>
+                    → Create three new scaled-up verticals: <span class="achievement-badge">Retail</span> <span class="achievement-badge">Technology</span> <span class="achievement-badge">Healthcare</span><br>
+                    → Expand North America revenue by ~33%</p>
+                    <p><strong>May 2024:</strong> QIP fundraising - Allotted 48.6 lakh equity shares at ₹4,600 per share</p>
+                    <p>• Acquired 27.98% stake in <strong>Cigniti Technologies</strong> (July 2024)<br>
+                    • Launched <span class="achievement-badge">Orion (Gen AI)</span> <span class="achievement-badge">Quasar AI</span><br>
+                    • Established Coforge Public Library in Noida</p>
+                </div>
+            </div>
+
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                    <span class="timeline-year">2025</span>
+                    <h3>🤖 AI Leadership</h3>
+                    <p>• Launched <span class="highlight">GenAI Center of Excellence</span><br>
+                    • Trained <strong>10,000+ developers</strong> on GitHub Copilot<br>
+                    • Launched <strong>Coforge Data & AI Lab at IIT BHU</strong><br>
+                    • Microsoft Copilot and Advisor Copilot on Microsoft Marketplace<br>
+                    • GenAI solutions for wealth and private banking</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="intro-card" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white;">
+            <h2 style="color: white;">🎯 Strategic Focus & Future Vision</h2>
+            <div style="margin-top: 1.5rem;">
+                <h3 style="color: #ffeaa7; font-size: 1.3rem; margin-bottom: 1rem;">Key Strategic Initiatives:</h3>
+                <p style="color: white; opacity: 0.95; margin-bottom: 0.8rem;">
+                    <strong>1. Transformation to Product Engineering:</strong> Converting legacy ADM service line into a product engineering-focused capability
+                </p>
+                <p style="color: white; opacity: 0.95; margin-bottom: 0.8rem;">
+                    <strong>2. North America Expansion:</strong> Rapid expansion plans with Cigniti acquisition expected to boost North America revenue by ~33%
+                </p>
+                <p style="color: white; opacity: 0.95; margin-bottom: 0.8rem;">
+                    <strong>3. Growth Target:</strong> Aiming to become a <span class="highlight">$2 billion firm by FY27</span>
+                </p>
+                <p style="color: white; opacity: 0.95; margin-bottom: 0.8rem;">
+                    <strong>4. Vertical Expansion:</strong> Creating three new scaled-up verticals through Cigniti acquisition - Retail, Technology, and Healthcare
+                </p>
+            </div>
+        </div>
+
+        <div class="intro-card" style="margin-top: 3rem;">
+            <h2>🌍 Global Presence</h2>
+            <p><strong>Development Centers:</strong> New Delhi, Kolkata, Mumbai, Bangalore, Atlanta, London, Singapore</p>
+            <p><strong>Subsidiaries:</strong> United States, Singapore, Australia, United Kingdom, Germany, Thailand (established to market and mobilize projects globally)</p>
+            <p><strong>Industry Verticals:</strong></p>
+            <p style="line-height: 2;">
+                <span class="achievement-badge">Financial Services</span>
+                <span class="achievement-badge">Insurance</span>
+                <span class="achievement-badge">Travel & Transportation</span>
+                <span class="achievement-badge">Manufacturing</span>
+                <span class="achievement-badge">Distribution</span>
+                <span class="achievement-badge">Government</span>
+                <span class="achievement-badge">Hospitality</span>
+                <span class="achievement-badge">Retail (New)</span>
+                <span class="achievement-badge">Technology (New)</span>
+                <span class="achievement-badge">Healthcare (New)</span>
+            </p>
+        </div>
+    </div>
+
+    <div class="footer">
+        <p style="font-size: 1.2rem; margin-bottom: 0.5rem;">🚀 Coforge - Leading Digital Transformation</p>
+        <p style="opacity: 0.8;">Empowering businesses worldwide since 1992</p>
+    </div>
+
+    <script>
+        // Scroll indicator
+        window.addEventListener('scroll', () => {
+            const scrollIndicator = document.getElementById('scrollIndicator');
+            const scrollHeight = document.documentElement.scrollHeight - window.innerHeight;
+            const scrolled = (window.scrollY / scrollHeight) * 100;
+            scrollIndicator.style.width = scrolled + '%';
+        });
+
+        // Intersection Observer for animations
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: '0px 0px -50px 0px'
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.style.opacity = '1';
+                    entry.target.style.transform = 'translateY(0)';
+                }
+            });
+        }, observerOptions);
+
+        document.querySelectorAll('.timeline-item, .service-card, .stat-card').forEach(el => {
+            observer.observe(el);
+        });
+    </script>
+</body>
+</html>
