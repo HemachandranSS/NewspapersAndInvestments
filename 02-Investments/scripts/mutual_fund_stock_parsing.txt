@@ -1,26 +1,53 @@
 import json 
 from datetime import datetime
-search_ids = ["hdfc-medium-term-opportunities-fund-direct-growth",
- "icici-prudential-corporate-bond-fund-direct-plan-growth",
- "birla-sun-life-short-term-fund-direct-growth",
- "sbi-corporate-bond-fund-direct-growth",
- "kotak-corporate-bond-fund-direct-growth",
- "idfc-corporate-bond-fund-direct-growth",
- "nippon-india-corporate-bond-fund-direct-growth",
- "axis-corporate-bond-fund-direct-growth",
- "invesco-india-active-i-come-fund-direct-growth",
- "hsbc-corporate-bond-direct-growth",
- "uti-corporate-bond-fund-direct-growth",
- "tata-corporate-bond-fund-direct-growth",
- "franklin-india-iba-direct-growth",
- "sundaram-flexible-fund-flexible-i-come-direct-growth",
- "union-corporate-bond-fund-direct-growth",
- "baroda-bnp-paribas-corporate-bond-fund-direct-growth",
- "canara-robeco-medium-term-opportunities-fund-direct-growth",
- "pgim-india-corporate-bond-direct-plan-growth",
- "mirae-asset-corporate-bond-fund-direct-growth",
- "dsp-corporate-bond-fund-direct-growth",
- "trustmf-corporate-bond-fund-direct-growth"]
+search_ids = ["hdfc-mid-cap-fund-direct-growth",
+ "kotak-emerging-equity-scheme-direct-growth",
+ "nippon-india-growth-mid-cap-fund-direct-growth",
+ "motilal-oswal-most-focused-midcap-30-fund-direct-growth",
+ "axis-midcap-fund-direct-growth",
+ "sbi-mid-cap-direct-plan-growth",
+ "dsp-blackrock-small-and-midcap-fund-direct-growth",
+ "edelweiss-mid-and-small-cap-fund-direct-growth",
+ "sundaram-select-midcap-direct-growth",
+ "franklin-india-mid-cap-fund-direct-growth",
+ "hsbc-midcap-fund-direct-growth",
+ "uti-mid-cap-fund-direct-growth",
+ "pgim-india-midcap-fund-direct-growth",
+ "invesco-india-mid-cap-fund-direct-growth",
+ "quant-mid-cap-fund-direct-growth",
+ "icici-prudential-midcap-fund-direct-growth",
+ "birla-sun-life-mid-cap-fund-plan-a-direct-growth",
+ "tata-mid-cap-direct-plan-growth",
+ "whiteoak-capital-mid-cap-fund-direct-growth",
+ "mahindra-manulife-mid-cap-fund-direct-growth",
+ "canara-robeco-mid-cap-fund-direct-growth",
+ "baroda-bnp-paribas-midcap-fund-direct-growth",
+ "nippon-india-nifty-midcap-150-index-fund-direct-growth",
+ "bandhan-midcap-fund-direct-growth",
+ "union-midcap-fund-direct-growth",
+ "edelweiss-nifty-midcap150-momentum-50-index-fund-direct-growth",
+ "iti-mid-cap-fund-direct-growth",
+ "jm-midcap-fund-direct-growth",
+ "tata-nifty-midcap-150-momentum-50-index-fund-direct-growth",
+ "icici-prudential-nifty-midcap-150-index-fund-direct-growth",
+ "sbi-nifty-midcap-150-index-fund-direct-growth",
+ "axis-nifty-midcap-50-index-fund-direct-growth",
+ "hdfc-nifty-midcap-150-index-fund-direct-growth",
+ "dsp-nifty-midcap-150-quality-50-index-fund-direct-growth",
+ "aditya-birla-sun-life-nifty-midcap-150-index-fund-direct-growth",
+ "navi-nifty-midcap-150-index-fund-direct-growth",
+ "lic-mf-midcap-fund-direct-growth",
+ "mirae-asset-nifty-midsmallcap400-momentum-quality-100-etf-fof-direct-growth",
+ "uti-nifty-midcap-150-quality-50-index-fund-direct-growth",
+ "tata-nifty-midcap-150-index-fund-direct-growth",
+ "taurus-mid-cap-fund-direct-growth",
+ "uti-nifty-midsmallcap-400-momentum-quality-100-index-fund-direct-growth",
+ "uti-nifty-midcap-150-index-fund-direct-growth",
+ "kotak-nifty-midcap-150-index-fund-direct-growth",
+ "navi-nifty-midsmallcap-400-index-fund-direct-growth",
+ "dsp-nifty-midcap-150-index-fund-direct-growth",
+ "mirae-asset-midcap-fund-direct-growth",
+ "motilal-oswal-nifty-midcap-150-index-fund-direct-growth"] 
 
 
 
@@ -39,7 +66,7 @@ for search_id in search_ids:
   for i in range(len(stock)):
      result.append({"stock": stock[i], "sector": sector[i], "instruments": instruments[i], "assets": assets[i], "mutual fund": search_id})
 
-with open("%s_corporate_bonds_mutualfund_invested_companies.json" % (datetime.now().strftime('%d_%m_%Y')), "w") as outfile: 
+with open("%s_mid_cap_mutualfund_invested_companies.json" % (datetime.now().strftime('%d_%m_%Y')), "w") as outfile: 
     json.dump(result, outfile)
 
 
@@ -50,7 +77,7 @@ def asset_value(record)
 end
 
 #Read File
-file = File.read('31_01_2026_corporate_bonds_mutualfund_invested_companies.json')
+file = File.read('08_02_2026_mid_cap_mutualfund_invested_companies.json')
 require 'json'
 data = JSON.parse(file)
 grouped = data
@@ -98,10 +125,10 @@ result = data
 
 
 #-----------------------------------------------------------------------------
-File.open("midcap_stocks_by_mutual_funds.json", "w") do |file|
+File.open("mid_cap_stocks_by_mutual_funds.json", "w") do |file|
   file.write(grouped.to_json)
 end
 
-File.open("midcap_stocks_by_mutual_funds_avg_coung.json", "w") do |file|
+File.open("mid_cap_by_mutual_funds_avg_coung.json", "w") do |file|
   file.write(result.to_json)
 end
