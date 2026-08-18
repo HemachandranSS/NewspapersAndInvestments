@@ -1,0 +1,9 @@
+Personal Loan EMI Calculation
+Loan amount: ₹13,73,000
+Rate: 11.00% | Tenure: 5 years
+Processing fee (1%): ₹13,730
+Net disbursed: ₹13,59,270
+Monthly EMI: ₹29,852
+Total interest: ₹4,18,141
+Total payable: ₹17,91,141
+Effective annual cost: 6.29%
